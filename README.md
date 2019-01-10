@@ -8,4 +8,5 @@
 #####五级标题  
 ######六级标题  
 
-# WGControllerPush  链接(https://github.com/wanggang1128/WGPushControllerKit.git)
+# WGControllerPush  
+链接(https://github.com/wanggang1128/WGPushControllerKit.git)
