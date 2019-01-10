@@ -17,6 +17,7 @@
 		048CE18C21E7130500FF03E7 /* WQKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CE18B21E7130500FF03E7 /* WQKit.m */; };
 		048CE19021E713B900FF03E7 /* PushKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CE18F21E713B900FF03E7 /* PushKit.m */; };
 		048CE19321E7142000FF03E7 /* WGControllerPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CE19121E7142000FF03E7 /* WGControllerPush.m */; };
+		048CE19721E717A100FF03E7 /* UIButton+WWBtnClickDelay.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CE19621E717A100FF03E7 /* UIButton+WWBtnClickDelay.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,8 @@
 		048CE18F21E713B900FF03E7 /* PushKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushKit.m; sourceTree = "<group>"; };
 		048CE19121E7142000FF03E7 /* WGControllerPush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGControllerPush.m; sourceTree = "<group>"; };
 		048CE19221E7142000FF03E7 /* WGControllerPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGControllerPush.h; sourceTree = "<group>"; };
+		048CE19521E717A100FF03E7 /* UIButton+WWBtnClickDelay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WWBtnClickDelay.h"; sourceTree = "<group>"; };
+		048CE19621E717A100FF03E7 /* UIButton+WWBtnClickDelay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WWBtnClickDelay.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +100,7 @@
 		048CE18921E712DC00FF03E7 /* WQQToolsKit */ = {
 			isa = PBXGroup;
 			children = (
+				048CE19421E7179700FF03E7 /* UIButton */,
 				048CE18D21E713A400FF03E7 /* PushTools */,
 				048CE18A21E7130500FF03E7 /* WQKit.h */,
 				048CE18B21E7130500FF03E7 /* WQKit.m */,
@@ -113,6 +117,15 @@
 				048CE18F21E713B900FF03E7 /* PushKit.m */,
 			);
 			path = PushTools;
+			sourceTree = "<group>";
+		};
+		048CE19421E7179700FF03E7 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				048CE19521E717A100FF03E7 /* UIButton+WWBtnClickDelay.h */,
+				048CE19621E717A100FF03E7 /* UIButton+WWBtnClickDelay.m */,
+			);
+			path = UIButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				048CE18C21E7130500FF03E7 /* WQKit.m in Sources */,
+				048CE19721E717A100FF03E7 /* UIButton+WWBtnClickDelay.m in Sources */,
 				048CE15C21E6DC7D00FF03E7 /* ViewController.m in Sources */,
 				048CE19021E713B900FF03E7 /* PushKit.m in Sources */,
 				048CE19321E7142000FF03E7 /* WGControllerPush.m in Sources */,
