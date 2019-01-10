@@ -16,6 +16,7 @@
 		048CE17921E6F10900FF03E7 /* WQHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CE17821E6F10900FF03E7 /* WQHomeViewController.m */; };
 		048CE18C21E7130500FF03E7 /* WQKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CE18B21E7130500FF03E7 /* WQKit.m */; };
 		048CE19021E713B900FF03E7 /* PushKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CE18F21E713B900FF03E7 /* PushKit.m */; };
+		048CE19321E7142000FF03E7 /* WGControllerPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CE19121E7142000FF03E7 /* WGControllerPush.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		048CE18B21E7130500FF03E7 /* WQKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WQKit.m; sourceTree = "<group>"; };
 		048CE18E21E713B900FF03E7 /* PushKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushKit.h; sourceTree = "<group>"; };
 		048CE18F21E713B900FF03E7 /* PushKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushKit.m; sourceTree = "<group>"; };
+		048CE19121E7142000FF03E7 /* WGControllerPush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGControllerPush.m; sourceTree = "<group>"; };
+		048CE19221E7142000FF03E7 /* WGControllerPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGControllerPush.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,8 @@
 		048CE18D21E713A400FF03E7 /* PushTools */ = {
 			isa = PBXGroup;
 			children = (
+				048CE19221E7142000FF03E7 /* WGControllerPush.h */,
+				048CE19121E7142000FF03E7 /* WGControllerPush.m */,
 				048CE18E21E713B900FF03E7 /* PushKit.h */,
 				048CE18F21E713B900FF03E7 /* PushKit.m */,
 			);
@@ -183,6 +188,7 @@
 				048CE18C21E7130500FF03E7 /* WQKit.m in Sources */,
 				048CE15C21E6DC7D00FF03E7 /* ViewController.m in Sources */,
 				048CE19021E713B900FF03E7 /* PushKit.m in Sources */,
+				048CE19321E7142000FF03E7 /* WGControllerPush.m in Sources */,
 				048CE16721E6DC7F00FF03E7 /* main.m in Sources */,
 				048CE15921E6DC7D00FF03E7 /* AppDelegate.m in Sources */,
 				048CE17921E6F10900FF03E7 /* WQHomeViewController.m in Sources */,
