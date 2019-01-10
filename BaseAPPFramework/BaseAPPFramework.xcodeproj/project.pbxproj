@@ -15,6 +15,7 @@
 		048CE16721E6DC7F00FF03E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CE16621E6DC7F00FF03E7 /* main.m */; };
 		048CE17521E6EF6200FF03E7 /* UIButton+WWBtnClickDelay.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CE17421E6EF6200FF03E7 /* UIButton+WWBtnClickDelay.m */; };
 		048CE17921E6F10900FF03E7 /* WQHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CE17821E6F10900FF03E7 /* WQHomeViewController.m */; };
+		048CE17D21E6FB4800FF03E7 /* WGControllerPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CE17C21E6FB4800FF03E7 /* WGControllerPush.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		048CE17421E6EF6200FF03E7 /* UIButton+WWBtnClickDelay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WWBtnClickDelay.m"; sourceTree = "<group>"; };
 		048CE17721E6F10900FF03E7 /* WQHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WQHomeViewController.h; sourceTree = "<group>"; };
 		048CE17821E6F10900FF03E7 /* WQHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WQHomeViewController.m; sourceTree = "<group>"; };
+		048CE17B21E6FB4800FF03E7 /* WGControllerPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGControllerPush.h; sourceTree = "<group>"; };
+		048CE17C21E6FB4800FF03E7 /* WGControllerPush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGControllerPush.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,7 @@
 		048CE17121E6EF6200FF03E7 /* WQToolsKit */ = {
 			isa = PBXGroup;
 			children = (
+				048CE17A21E6FB4800FF03E7 /* PushTools */,
 				048CE17221E6EF6200FF03E7 /* WQUIButton-延时btn */,
 			);
 			path = WQToolsKit;
@@ -103,6 +107,15 @@
 				048CE17821E6F10900FF03E7 /* WQHomeViewController.m */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		048CE17A21E6FB4800FF03E7 /* PushTools */ = {
+			isa = PBXGroup;
+			children = (
+				048CE17B21E6FB4800FF03E7 /* WGControllerPush.h */,
+				048CE17C21E6FB4800FF03E7 /* WGControllerPush.m */,
+			);
+			path = PushTools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,6 +191,7 @@
 				048CE15C21E6DC7D00FF03E7 /* ViewController.m in Sources */,
 				048CE17521E6EF6200FF03E7 /* UIButton+WWBtnClickDelay.m in Sources */,
 				048CE16721E6DC7F00FF03E7 /* main.m in Sources */,
+				048CE17D21E6FB4800FF03E7 /* WGControllerPush.m in Sources */,
 				048CE15921E6DC7D00FF03E7 /* AppDelegate.m in Sources */,
 				048CE17921E6F10900FF03E7 /* WQHomeViewController.m in Sources */,
 			);
