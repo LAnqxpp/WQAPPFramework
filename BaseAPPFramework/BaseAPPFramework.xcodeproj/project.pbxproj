@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		044AAB7A21E82AA3009F0EA2 /* UIView+WQFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 044AAB7921E82AA3009F0EA2 /* UIView+WQFrame.m */; };
+		044AAB7F21E86CCC009F0EA2 /* NSObject+NotificationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 044AAB7E21E86CCC009F0EA2 /* NSObject+NotificationHelper.m */; };
 		048CE15921E6DC7D00FF03E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CE15821E6DC7D00FF03E7 /* AppDelegate.m */; };
 		048CE15C21E6DC7D00FF03E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CE15B21E6DC7D00FF03E7 /* ViewController.m */; };
 		048CE15F21E6DC7D00FF03E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048CE15D21E6DC7D00FF03E7 /* Main.storyboard */; };
@@ -18,9 +20,15 @@
 		048CE19021E713B900FF03E7 /* PushKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CE18F21E713B900FF03E7 /* PushKit.m */; };
 		048CE19321E7142000FF03E7 /* WGControllerPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CE19121E7142000FF03E7 /* WGControllerPush.m */; };
 		048CE19721E717A100FF03E7 /* UIButton+WWBtnClickDelay.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CE19621E717A100FF03E7 /* UIButton+WWBtnClickDelay.m */; };
+		048CE19B21E7429400FF03E7 /* WQLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CE19A21E7429400FF03E7 /* WQLoadingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		044AAB7821E82AA3009F0EA2 /* UIView+WQFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+WQFrame.h"; sourceTree = "<group>"; };
+		044AAB7921E82AA3009F0EA2 /* UIView+WQFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+WQFrame.m"; sourceTree = "<group>"; };
+		044AAB7C21E86CCC009F0EA2 /* NotificationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationHelper.h; sourceTree = "<group>"; };
+		044AAB7D21E86CCC009F0EA2 /* NSObject+NotificationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NotificationHelper.h"; sourceTree = "<group>"; };
+		044AAB7E21E86CCC009F0EA2 /* NSObject+NotificationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NotificationHelper.m"; sourceTree = "<group>"; };
 		048CE15421E6DC7D00FF03E7 /* BaseAPPFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseAPPFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		048CE15721E6DC7D00FF03E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		048CE15821E6DC7D00FF03E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -41,6 +49,8 @@
 		048CE19221E7142000FF03E7 /* WGControllerPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGControllerPush.h; sourceTree = "<group>"; };
 		048CE19521E717A100FF03E7 /* UIButton+WWBtnClickDelay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WWBtnClickDelay.h"; sourceTree = "<group>"; };
 		048CE19621E717A100FF03E7 /* UIButton+WWBtnClickDelay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WWBtnClickDelay.m"; sourceTree = "<group>"; };
+		048CE19921E7429400FF03E7 /* WQLoadingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WQLoadingView.h; sourceTree = "<group>"; };
+		048CE19A21E7429400FF03E7 /* WQLoadingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WQLoadingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		044AAB7721E82A7F009F0EA2 /* UIView+ Frame */ = {
+			isa = PBXGroup;
+			children = (
+				044AAB7821E82AA3009F0EA2 /* UIView+WQFrame.h */,
+				044AAB7921E82AA3009F0EA2 /* UIView+WQFrame.m */,
+			);
+			path = "UIView+ Frame";
+			sourceTree = "<group>";
+		};
+		044AAB7B21E86CCC009F0EA2 /* NotificationHelper */ = {
+			isa = PBXGroup;
+			children = (
+				044AAB7C21E86CCC009F0EA2 /* NotificationHelper.h */,
+				044AAB7D21E86CCC009F0EA2 /* NSObject+NotificationHelper.h */,
+				044AAB7E21E86CCC009F0EA2 /* NSObject+NotificationHelper.m */,
+			);
+			path = NotificationHelper;
+			sourceTree = "<group>";
+		};
 		048CE14B21E6DC7D00FF03E7 = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +129,9 @@
 		048CE18921E712DC00FF03E7 /* WQQToolsKit */ = {
 			isa = PBXGroup;
 			children = (
+				044AAB7B21E86CCC009F0EA2 /* NotificationHelper */,
+				044AAB7721E82A7F009F0EA2 /* UIView+ Frame */,
+				048CE19821E7426E00FF03E7 /* WQLoadingView */,
 				048CE19421E7179700FF03E7 /* UIButton */,
 				048CE18D21E713A400FF03E7 /* PushTools */,
 				048CE18A21E7130500FF03E7 /* WQKit.h */,
@@ -126,6 +158,15 @@
 				048CE19621E717A100FF03E7 /* UIButton+WWBtnClickDelay.m */,
 			);
 			path = UIButton;
+			sourceTree = "<group>";
+		};
+		048CE19821E7426E00FF03E7 /* WQLoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				048CE19921E7429400FF03E7 /* WQLoadingView.h */,
+				048CE19A21E7429400FF03E7 /* WQLoadingView.m */,
+			);
+			path = WQLoadingView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,14 +239,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044AAB7A21E82AA3009F0EA2 /* UIView+WQFrame.m in Sources */,
 				048CE18C21E7130500FF03E7 /* WQKit.m in Sources */,
 				048CE19721E717A100FF03E7 /* UIButton+WWBtnClickDelay.m in Sources */,
+				044AAB7F21E86CCC009F0EA2 /* NSObject+NotificationHelper.m in Sources */,
 				048CE15C21E6DC7D00FF03E7 /* ViewController.m in Sources */,
 				048CE19021E713B900FF03E7 /* PushKit.m in Sources */,
 				048CE19321E7142000FF03E7 /* WGControllerPush.m in Sources */,
 				048CE16721E6DC7F00FF03E7 /* main.m in Sources */,
 				048CE15921E6DC7D00FF03E7 /* AppDelegate.m in Sources */,
 				048CE17921E6F10900FF03E7 /* WQHomeViewController.m in Sources */,
+				048CE19B21E7429400FF03E7 /* WQLoadingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
