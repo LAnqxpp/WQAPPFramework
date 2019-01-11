@@ -16,8 +16,6 @@
 		048CE16421E6DC7F00FF03E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048CE16221E6DC7F00FF03E7 /* LaunchScreen.storyboard */; };
 		048CE16721E6DC7F00FF03E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CE16621E6DC7F00FF03E7 /* main.m */; };
 		048CE17921E6F10900FF03E7 /* WQHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CE17821E6F10900FF03E7 /* WQHomeViewController.m */; };
-		048CE18C21E7130500FF03E7 /* WQKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CE18B21E7130500FF03E7 /* WQKit.m */; };
-		048CE19021E713B900FF03E7 /* PushKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CE18F21E713B900FF03E7 /* PushKit.m */; };
 		048CE19321E7142000FF03E7 /* WGControllerPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CE19121E7142000FF03E7 /* WGControllerPush.m */; };
 		048CE19721E717A100FF03E7 /* UIButton+WWBtnClickDelay.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CE19621E717A100FF03E7 /* UIButton+WWBtnClickDelay.m */; };
 		048CE19B21E7429400FF03E7 /* WQLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CE19A21E7429400FF03E7 /* WQLoadingView.m */; };
@@ -41,10 +39,6 @@
 		048CE16621E6DC7F00FF03E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		048CE17721E6F10900FF03E7 /* WQHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WQHomeViewController.h; sourceTree = "<group>"; };
 		048CE17821E6F10900FF03E7 /* WQHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WQHomeViewController.m; sourceTree = "<group>"; };
-		048CE18A21E7130500FF03E7 /* WQKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WQKit.h; sourceTree = "<group>"; };
-		048CE18B21E7130500FF03E7 /* WQKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WQKit.m; sourceTree = "<group>"; };
-		048CE18E21E713B900FF03E7 /* PushKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushKit.h; sourceTree = "<group>"; };
-		048CE18F21E713B900FF03E7 /* PushKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushKit.m; sourceTree = "<group>"; };
 		048CE19121E7142000FF03E7 /* WGControllerPush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGControllerPush.m; sourceTree = "<group>"; };
 		048CE19221E7142000FF03E7 /* WGControllerPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGControllerPush.h; sourceTree = "<group>"; };
 		048CE19521E717A100FF03E7 /* UIButton+WWBtnClickDelay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WWBtnClickDelay.h"; sourceTree = "<group>"; };
@@ -134,8 +128,6 @@
 				048CE19821E7426E00FF03E7 /* WQLoadingView */,
 				048CE19421E7179700FF03E7 /* UIButton */,
 				048CE18D21E713A400FF03E7 /* PushTools */,
-				048CE18A21E7130500FF03E7 /* WQKit.h */,
-				048CE18B21E7130500FF03E7 /* WQKit.m */,
 			);
 			path = WQQToolsKit;
 			sourceTree = "<group>";
@@ -145,8 +137,6 @@
 			children = (
 				048CE19221E7142000FF03E7 /* WGControllerPush.h */,
 				048CE19121E7142000FF03E7 /* WGControllerPush.m */,
-				048CE18E21E713B900FF03E7 /* PushKit.h */,
-				048CE18F21E713B900FF03E7 /* PushKit.m */,
 			);
 			path = PushTools;
 			sourceTree = "<group>";
@@ -240,11 +230,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				044AAB7A21E82AA3009F0EA2 /* UIView+WQFrame.m in Sources */,
-				048CE18C21E7130500FF03E7 /* WQKit.m in Sources */,
 				048CE19721E717A100FF03E7 /* UIButton+WWBtnClickDelay.m in Sources */,
 				044AAB7F21E86CCC009F0EA2 /* NSObject+NotificationHelper.m in Sources */,
 				048CE15C21E6DC7D00FF03E7 /* ViewController.m in Sources */,
-				048CE19021E713B900FF03E7 /* PushKit.m in Sources */,
 				048CE19321E7142000FF03E7 /* WGControllerPush.m in Sources */,
 				048CE16721E6DC7F00FF03E7 /* main.m in Sources */,
 				048CE15921E6DC7D00FF03E7 /* AppDelegate.m in Sources */,
