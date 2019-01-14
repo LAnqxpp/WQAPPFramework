@@ -10,6 +10,7 @@
 		044AAB7A21E82AA3009F0EA2 /* UIView+WQFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 044AAB7921E82AA3009F0EA2 /* UIView+WQFrame.m */; };
 		044AAB7F21E86CCC009F0EA2 /* NSObject+NotificationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 044AAB7E21E86CCC009F0EA2 /* NSObject+NotificationHelper.m */; };
 		0476945221EC3049002A91B4 /* UIColor+Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 0476945121EC3049002A91B4 /* UIColor+Gradient.m */; };
+		0476945921EC5B69002A91B4 /* NSDate+dates.m in Sources */ = {isa = PBXBuildFile; fileRef = 0476945821EC5B69002A91B4 /* NSDate+dates.m */; };
 		048CE15921E6DC7D00FF03E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CE15821E6DC7D00FF03E7 /* AppDelegate.m */; };
 		048CE15C21E6DC7D00FF03E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CE15B21E6DC7D00FF03E7 /* ViewController.m */; };
 		048CE15F21E6DC7D00FF03E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048CE15D21E6DC7D00FF03E7 /* Main.storyboard */; };
@@ -29,6 +30,8 @@
 		044AAB7E21E86CCC009F0EA2 /* NSObject+NotificationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NotificationHelper.m"; sourceTree = "<group>"; };
 		0476945021EC3049002A91B4 /* UIColor+Gradient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Gradient.h"; sourceTree = "<group>"; };
 		0476945121EC3049002A91B4 /* UIColor+Gradient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Gradient.m"; sourceTree = "<group>"; };
+		0476945721EC5B69002A91B4 /* NSDate+dates.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+dates.h"; sourceTree = "<group>"; };
+		0476945821EC5B69002A91B4 /* NSDate+dates.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+dates.m"; sourceTree = "<group>"; };
 		048CE15421E6DC7D00FF03E7 /* BaseAPPFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseAPPFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		048CE15721E6DC7D00FF03E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		048CE15821E6DC7D00FF03E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -86,6 +89,15 @@
 			path = UIColor;
 			sourceTree = "<group>";
 		};
+		0476945321EC599E002A91B4 /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				0476945721EC5B69002A91B4 /* NSDate+dates.h */,
+				0476945821EC5B69002A91B4 /* NSDate+dates.m */,
+			);
+			path = NSDate;
+			sourceTree = "<group>";
+		};
 		048CE14B21E6DC7D00FF03E7 = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +144,7 @@
 		048CE18921E712DC00FF03E7 /* WQQToolsKit */ = {
 			isa = PBXGroup;
 			children = (
+				0476945321EC599E002A91B4 /* NSDate */,
 				0476944C21EC2FC6002A91B4 /* UIColor */,
 				044AAB7B21E86CCC009F0EA2 /* NotificationHelper */,
 				044AAB7721E82A7F009F0EA2 /* UIView+ Frame */,
@@ -230,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				044AAB7A21E82AA3009F0EA2 /* UIView+WQFrame.m in Sources */,
+				0476945921EC5B69002A91B4 /* NSDate+dates.m in Sources */,
 				048CE19721E717A100FF03E7 /* UIButton+WWBtnClickDelay.m in Sources */,
 				044AAB7F21E86CCC009F0EA2 /* NSObject+NotificationHelper.m in Sources */,
 				0476945221EC3049002A91B4 /* UIColor+Gradient.m in Sources */,
