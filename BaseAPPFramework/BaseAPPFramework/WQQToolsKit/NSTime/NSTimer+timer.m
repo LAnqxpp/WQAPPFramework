@@ -17,7 +17,7 @@ static const void *s_zj_private_currentCountTime = "s_zj_private_currentCountTim
     NSNumber *obj = objc_getAssociatedObject(self, s_zj_private_currentCountTime);
     
     if (obj == nil) {
-        obj = @(0);
+        obj = @(0); 
         
         [self setzj_private_currentCountTime:obj];
     }

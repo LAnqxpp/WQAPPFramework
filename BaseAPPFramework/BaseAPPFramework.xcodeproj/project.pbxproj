@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042B77A821F1768600B366F9 /* NSAttributedString+WQDifferentString.m in Sources */ = {isa = PBXBuildFile; fileRef = 042B77A721F1768600B366F9 /* NSAttributedString+WQDifferentString.m */; };
+		042B77AB21F1CB0A00B366F9 /* WeChatb72c247d337283c778baa5887883b4ba.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B77AA21F1CB0A00B366F9 /* WeChatb72c247d337283c778baa5887883b4ba.png */; };
 		044AAB7A21E82AA3009F0EA2 /* UIView+WQFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 044AAB7921E82AA3009F0EA2 /* UIView+WQFrame.m */; };
 		044AAB7F21E86CCC009F0EA2 /* NSObject+NotificationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 044AAB7E21E86CCC009F0EA2 /* NSObject+NotificationHelper.m */; };
 		0476945221EC3049002A91B4 /* UIColor+Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 0476945121EC3049002A91B4 /* UIColor+Gradient.m */; };
@@ -24,6 +26,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		042B77A621F1768600B366F9 /* NSAttributedString+WQDifferentString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+WQDifferentString.h"; sourceTree = "<group>"; };
+		042B77A721F1768600B366F9 /* NSAttributedString+WQDifferentString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+WQDifferentString.m"; sourceTree = "<group>"; };
+		042B77A921F185CF00B366F9 /* WQDifferentStringHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WQDifferentStringHeader.h; sourceTree = "<group>"; };
+		042B77AA21F1CB0A00B366F9 /* WeChatb72c247d337283c778baa5887883b4ba.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WeChatb72c247d337283c778baa5887883b4ba.png; sourceTree = "<group>"; };
 		044AAB7821E82AA3009F0EA2 /* UIView+WQFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+WQFrame.h"; sourceTree = "<group>"; };
 		044AAB7921E82AA3009F0EA2 /* UIView+WQFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+WQFrame.m"; sourceTree = "<group>"; };
 		044AAB7C21E86CCC009F0EA2 /* NotificationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationHelper.h; sourceTree = "<group>"; };
@@ -64,6 +70,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		042B77A521F1763400B366F9 /* NSAttributedString */ = {
+			isa = PBXGroup;
+			children = (
+				042B77A621F1768600B366F9 /* NSAttributedString+WQDifferentString.h */,
+				042B77A721F1768600B366F9 /* NSAttributedString+WQDifferentString.m */,
+				042B77A921F185CF00B366F9 /* WQDifferentStringHeader.h */,
+			);
+			path = NSAttributedString;
+			sourceTree = "<group>";
+		};
 		044AAB7721E82A7F009F0EA2 /* UIView+ Frame */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +172,8 @@
 		048CE18921E712DC00FF03E7 /* WQQToolsKit */ = {
 			isa = PBXGroup;
 			children = (
+				042B77AA21F1CB0A00B366F9 /* WeChatb72c247d337283c778baa5887883b4ba.png */,
+				042B77A521F1763400B366F9 /* NSAttributedString */,
 				0476945A21EC60EA002A91B4 /* NSTime */,
 				0476945321EC599E002A91B4 /* NSDate */,
 				0476944C21EC2FC6002A91B4 /* UIColor */,
@@ -245,6 +263,7 @@
 				048CE16421E6DC7F00FF03E7 /* LaunchScreen.storyboard in Resources */,
 				048CE16121E6DC7F00FF03E7 /* Assets.xcassets in Resources */,
 				048CE15F21E6DC7D00FF03E7 /* Main.storyboard in Resources */,
+				042B77AB21F1CB0A00B366F9 /* WeChatb72c247d337283c778baa5887883b4ba.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +280,7 @@
 				044AAB7F21E86CCC009F0EA2 /* NSObject+NotificationHelper.m in Sources */,
 				0476945221EC3049002A91B4 /* UIColor+Gradient.m in Sources */,
 				048CE15C21E6DC7D00FF03E7 /* ViewController.m in Sources */,
+				042B77A821F1768600B366F9 /* NSAttributedString+WQDifferentString.m in Sources */,
 				0476945D21EC610B002A91B4 /* NSTimer+timer.m in Sources */,
 				048CE19321E7142000FF03E7 /* WGControllerPush.m in Sources */,
 				048CE16721E6DC7F00FF03E7 /* main.m in Sources */,
@@ -408,6 +428,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4M3AMBXTBE;
 				INFOPLIST_FILE = BaseAPPFramework/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -425,6 +446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4M3AMBXTBE;
 				INFOPLIST_FILE = BaseAPPFramework/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
