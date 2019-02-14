@@ -19,8 +19,7 @@
     UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(10, 100, 100, 43)];
     [self.view addSubview:label];
     label.text = @"adgfagas";
-//    label.attributedText  = [NSAttributedString attributedText:@[@"a",@"dgfagas"] attributeAttay:@[@"1",@"12"]];
-//    label.attributedText.attributedFont  = 43;
+  //    label.attributedText.attributedFont  = 43;
     
     // Do any additional setup after loading the view, typically from a nib.
 }

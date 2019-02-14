@@ -11,6 +11,7 @@
 		042B77AB21F1CB0A00B366F9 /* WeChatb72c247d337283c778baa5887883b4ba.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B77AA21F1CB0A00B366F9 /* WeChatb72c247d337283c778baa5887883b4ba.png */; };
 		044AAB7A21E82AA3009F0EA2 /* UIView+WQFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 044AAB7921E82AA3009F0EA2 /* UIView+WQFrame.m */; };
 		044AAB7F21E86CCC009F0EA2 /* NSObject+NotificationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 044AAB7E21E86CCC009F0EA2 /* NSObject+NotificationHelper.m */; };
+		04640546221541060094DE93 /* LTTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04640544221541060094DE93 /* LTTableViewCell.m */; };
 		0476945221EC3049002A91B4 /* UIColor+Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 0476945121EC3049002A91B4 /* UIColor+Gradient.m */; };
 		0476945921EC5B69002A91B4 /* NSDate+dates.m in Sources */ = {isa = PBXBuildFile; fileRef = 0476945821EC5B69002A91B4 /* NSDate+dates.m */; };
 		0476945D21EC610B002A91B4 /* NSTimer+timer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0476945C21EC610B002A91B4 /* NSTimer+timer.m */; };
@@ -35,6 +36,9 @@
 		044AAB7C21E86CCC009F0EA2 /* NotificationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationHelper.h; sourceTree = "<group>"; };
 		044AAB7D21E86CCC009F0EA2 /* NSObject+NotificationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NotificationHelper.h"; sourceTree = "<group>"; };
 		044AAB7E21E86CCC009F0EA2 /* NSObject+NotificationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NotificationHelper.m"; sourceTree = "<group>"; };
+		04640543221541060094DE93 /* LTTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTTableViewCell.h; sourceTree = "<group>"; };
+		04640544221541060094DE93 /* LTTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTTableViewCell.m; sourceTree = "<group>"; };
+		04640545221541060094DE93 /* LTTableViewCellProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTTableViewCellProtocol.h; sourceTree = "<group>"; };
 		0476945021EC3049002A91B4 /* UIColor+Gradient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Gradient.h"; sourceTree = "<group>"; };
 		0476945121EC3049002A91B4 /* UIColor+Gradient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Gradient.m"; sourceTree = "<group>"; };
 		0476945721EC5B69002A91B4 /* NSDate+dates.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+dates.h"; sourceTree = "<group>"; };
@@ -99,6 +103,24 @@
 			path = NotificationHelper;
 			sourceTree = "<group>";
 		};
+		04640541221541060094DE93 /* Third-Party-Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				04640542221541060094DE93 /* LTTableViewCell */,
+			);
+			path = "Third-Party-Libraries";
+			sourceTree = "<group>";
+		};
+		04640542221541060094DE93 /* LTTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				04640543221541060094DE93 /* LTTableViewCell.h */,
+				04640544221541060094DE93 /* LTTableViewCell.m */,
+				04640545221541060094DE93 /* LTTableViewCellProtocol.h */,
+			);
+			path = LTTableViewCell;
+			sourceTree = "<group>";
+		};
 		0476944C21EC2FC6002A91B4 /* UIColor */ = {
 			isa = PBXGroup;
 			children = (
@@ -145,6 +167,7 @@
 		048CE15621E6DC7D00FF03E7 /* BaseAPPFramework */ = {
 			isa = PBXGroup;
 			children = (
+				04640541221541060094DE93 /* Third-Party-Libraries */,
 				048CE18921E712DC00FF03E7 /* WQQToolsKit */,
 				048CE15721E6DC7D00FF03E7 /* AppDelegate.h */,
 				048CE15821E6DC7D00FF03E7 /* AppDelegate.m */,
@@ -277,6 +300,7 @@
 				044AAB7A21E82AA3009F0EA2 /* UIView+WQFrame.m in Sources */,
 				0476945921EC5B69002A91B4 /* NSDate+dates.m in Sources */,
 				048CE19721E717A100FF03E7 /* UIButton+WWBtnClickDelay.m in Sources */,
+				04640546221541060094DE93 /* LTTableViewCell.m in Sources */,
 				044AAB7F21E86CCC009F0EA2 /* NSObject+NotificationHelper.m in Sources */,
 				0476945221EC3049002A91B4 /* UIColor+Gradient.m in Sources */,
 				048CE15C21E6DC7D00FF03E7 /* ViewController.m in Sources */,
