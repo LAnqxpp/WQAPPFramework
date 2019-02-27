@@ -11,7 +11,10 @@
 		042B77AB21F1CB0A00B366F9 /* WeChatb72c247d337283c778baa5887883b4ba.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B77AA21F1CB0A00B366F9 /* WeChatb72c247d337283c778baa5887883b4ba.png */; };
 		044AAB7A21E82AA3009F0EA2 /* UIView+WQFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 044AAB7921E82AA3009F0EA2 /* UIView+WQFrame.m */; };
 		044AAB7F21E86CCC009F0EA2 /* NSObject+NotificationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 044AAB7E21E86CCC009F0EA2 /* NSObject+NotificationHelper.m */; };
+		04597800222637E70027C5A3 /* UIBarButtonItem+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = 045977FC222637E70027C5A3 /* UIBarButtonItem+Badge.m */; };
+		04597801222637E70027C5A3 /* UIButton+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = 045977FF222637E70027C5A3 /* UIButton+Badge.m */; };
 		04640546221541060094DE93 /* LTTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04640544221541060094DE93 /* LTTableViewCell.m */; };
+		0464054922154D2F0094DE93 /* LTTestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0464054822154D2F0094DE93 /* LTTestTableViewCell.m */; };
 		0476945221EC3049002A91B4 /* UIColor+Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 0476945121EC3049002A91B4 /* UIColor+Gradient.m */; };
 		0476945921EC5B69002A91B4 /* NSDate+dates.m in Sources */ = {isa = PBXBuildFile; fileRef = 0476945821EC5B69002A91B4 /* NSDate+dates.m */; };
 		0476945D21EC610B002A91B4 /* NSTimer+timer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0476945C21EC610B002A91B4 /* NSTimer+timer.m */; };
@@ -36,9 +39,15 @@
 		044AAB7C21E86CCC009F0EA2 /* NotificationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationHelper.h; sourceTree = "<group>"; };
 		044AAB7D21E86CCC009F0EA2 /* NSObject+NotificationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NotificationHelper.h"; sourceTree = "<group>"; };
 		044AAB7E21E86CCC009F0EA2 /* NSObject+NotificationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NotificationHelper.m"; sourceTree = "<group>"; };
+		045977FC222637E70027C5A3 /* UIBarButtonItem+Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Badge.m"; sourceTree = "<group>"; };
+		045977FD222637E70027C5A3 /* UIBarButtonItem+Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Badge.h"; sourceTree = "<group>"; };
+		045977FE222637E70027C5A3 /* UIButton+Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Badge.h"; sourceTree = "<group>"; };
+		045977FF222637E70027C5A3 /* UIButton+Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Badge.m"; sourceTree = "<group>"; };
 		04640543221541060094DE93 /* LTTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTTableViewCell.h; sourceTree = "<group>"; };
 		04640544221541060094DE93 /* LTTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTTableViewCell.m; sourceTree = "<group>"; };
 		04640545221541060094DE93 /* LTTableViewCellProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTTableViewCellProtocol.h; sourceTree = "<group>"; };
+		0464054722154D2F0094DE93 /* LTTestTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTTestTableViewCell.h; sourceTree = "<group>"; };
+		0464054822154D2F0094DE93 /* LTTestTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTTestTableViewCell.m; sourceTree = "<group>"; };
 		0476945021EC3049002A91B4 /* UIColor+Gradient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Gradient.h"; sourceTree = "<group>"; };
 		0476945121EC3049002A91B4 /* UIColor+Gradient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Gradient.m"; sourceTree = "<group>"; };
 		0476945721EC5B69002A91B4 /* NSDate+dates.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+dates.h"; sourceTree = "<group>"; };
@@ -174,6 +183,8 @@
 				048CE17621E6F0F400FF03E7 /* Classes */,
 				048CE15A21E6DC7D00FF03E7 /* ViewController.h */,
 				048CE15B21E6DC7D00FF03E7 /* ViewController.m */,
+				0464054722154D2F0094DE93 /* LTTestTableViewCell.h */,
+				0464054822154D2F0094DE93 /* LTTestTableViewCell.m */,
 				048CE15D21E6DC7D00FF03E7 /* Main.storyboard */,
 				048CE16021E6DC7F00FF03E7 /* Assets.xcassets */,
 				048CE16221E6DC7F00FF03E7 /* LaunchScreen.storyboard */,
@@ -220,6 +231,10 @@
 		048CE19421E7179700FF03E7 /* UIButton */ = {
 			isa = PBXGroup;
 			children = (
+				045977FD222637E70027C5A3 /* UIBarButtonItem+Badge.h */,
+				045977FC222637E70027C5A3 /* UIBarButtonItem+Badge.m */,
+				045977FE222637E70027C5A3 /* UIButton+Badge.h */,
+				045977FF222637E70027C5A3 /* UIButton+Badge.m */,
 				048CE19521E717A100FF03E7 /* UIButton+WWBtnClickDelay.h */,
 				048CE19621E717A100FF03E7 /* UIButton+WWBtnClickDelay.m */,
 			);
@@ -300,16 +315,19 @@
 				044AAB7A21E82AA3009F0EA2 /* UIView+WQFrame.m in Sources */,
 				0476945921EC5B69002A91B4 /* NSDate+dates.m in Sources */,
 				048CE19721E717A100FF03E7 /* UIButton+WWBtnClickDelay.m in Sources */,
+				04597801222637E70027C5A3 /* UIButton+Badge.m in Sources */,
 				04640546221541060094DE93 /* LTTableViewCell.m in Sources */,
 				044AAB7F21E86CCC009F0EA2 /* NSObject+NotificationHelper.m in Sources */,
 				0476945221EC3049002A91B4 /* UIColor+Gradient.m in Sources */,
 				048CE15C21E6DC7D00FF03E7 /* ViewController.m in Sources */,
 				042B77A821F1768600B366F9 /* NSAttributedString+WQDifferentString.m in Sources */,
 				0476945D21EC610B002A91B4 /* NSTimer+timer.m in Sources */,
+				04597800222637E70027C5A3 /* UIBarButtonItem+Badge.m in Sources */,
 				048CE19321E7142000FF03E7 /* WGControllerPush.m in Sources */,
 				048CE16721E6DC7F00FF03E7 /* main.m in Sources */,
 				048CE15921E6DC7D00FF03E7 /* AppDelegate.m in Sources */,
 				048CE17921E6F10900FF03E7 /* WQHomeViewController.m in Sources */,
+				0464054922154D2F0094DE93 /* LTTestTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
