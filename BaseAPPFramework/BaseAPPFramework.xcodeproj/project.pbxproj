@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		042B77A821F1768600B366F9 /* NSAttributedString+WQDifferentString.m in Sources */ = {isa = PBXBuildFile; fileRef = 042B77A721F1768600B366F9 /* NSAttributedString+WQDifferentString.m */; };
 		042B77AB21F1CB0A00B366F9 /* WeChatb72c247d337283c778baa5887883b4ba.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B77AA21F1CB0A00B366F9 /* WeChatb72c247d337283c778baa5887883b4ba.png */; };
+		044267892239EE84007A800D /* UITabBarItem+CustomBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 044267882239EE84007A800D /* UITabBarItem+CustomBadge.m */; };
 		044AAB7A21E82AA3009F0EA2 /* UIView+WQFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 044AAB7921E82AA3009F0EA2 /* UIView+WQFrame.m */; };
 		044AAB7F21E86CCC009F0EA2 /* NSObject+NotificationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 044AAB7E21E86CCC009F0EA2 /* NSObject+NotificationHelper.m */; };
 		04597800222637E70027C5A3 /* UIBarButtonItem+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = 045977FC222637E70027C5A3 /* UIBarButtonItem+Badge.m */; };
@@ -38,6 +39,8 @@
 		042B77A721F1768600B366F9 /* NSAttributedString+WQDifferentString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+WQDifferentString.m"; sourceTree = "<group>"; };
 		042B77A921F185CF00B366F9 /* WQDifferentStringHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WQDifferentStringHeader.h; sourceTree = "<group>"; };
 		042B77AA21F1CB0A00B366F9 /* WeChatb72c247d337283c778baa5887883b4ba.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WeChatb72c247d337283c778baa5887883b4ba.png; sourceTree = "<group>"; };
+		044267872239EE84007A800D /* UITabBarItem+CustomBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+CustomBadge.h"; sourceTree = "<group>"; };
+		044267882239EE84007A800D /* UITabBarItem+CustomBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+CustomBadge.m"; sourceTree = "<group>"; };
 		044AAB7821E82AA3009F0EA2 /* UIView+WQFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+WQFrame.h"; sourceTree = "<group>"; };
 		044AAB7921E82AA3009F0EA2 /* UIView+WQFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+WQFrame.m"; sourceTree = "<group>"; };
 		044AAB7C21E86CCC009F0EA2 /* NotificationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationHelper.h; sourceTree = "<group>"; };
@@ -103,6 +106,15 @@
 				042B77A921F185CF00B366F9 /* WQDifferentStringHeader.h */,
 			);
 			path = NSAttributedString;
+			sourceTree = "<group>";
+		};
+		044267862239EE84007A800D /* UITabBarItem+Badge */ = {
+			isa = PBXGroup;
+			children = (
+				044267872239EE84007A800D /* UITabBarItem+CustomBadge.h */,
+				044267882239EE84007A800D /* UITabBarItem+CustomBadge.m */,
+			);
+			path = "UITabBarItem+Badge";
 			sourceTree = "<group>";
 		};
 		044AAB7721E82A7F009F0EA2 /* UIView+ Frame */ = {
@@ -233,6 +245,7 @@
 		048CE18921E712DC00FF03E7 /* WQQToolsKit */ = {
 			isa = PBXGroup;
 			children = (
+				044267862239EE84007A800D /* UITabBarItem+Badge */,
 				04597AB52239100300542D14 /* NSArray+监听数组个数 */,
 				042B77AA21F1CB0A00B366F9 /* WeChatb72c247d337283c778baa5887883b4ba.png */,
 				042B77A521F1763400B366F9 /* NSAttributedString */,
@@ -353,6 +366,7 @@
 				04597ABF2239100300542D14 /* KVOMutableArray.m in Sources */,
 				04597AC02239100300542D14 /* KVOMutableArrayObserver.m in Sources */,
 				0476945D21EC610B002A91B4 /* NSTimer+timer.m in Sources */,
+				044267892239EE84007A800D /* UITabBarItem+CustomBadge.m in Sources */,
 				04597800222637E70027C5A3 /* UIBarButtonItem+Badge.m in Sources */,
 				048CE19321E7142000FF03E7 /* WGControllerPush.m in Sources */,
 				04597ABE2239100300542D14 /* KVOMutableArray+ReactiveCocoaSupport.m in Sources */,
