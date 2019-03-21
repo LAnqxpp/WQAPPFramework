@@ -26,6 +26,8 @@
 		0476945221EC3049002A91B4 /* UIColor+Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 0476945121EC3049002A91B4 /* UIColor+Gradient.m */; };
 		0476945921EC5B69002A91B4 /* NSDate+dates.m in Sources */ = {isa = PBXBuildFile; fileRef = 0476945821EC5B69002A91B4 /* NSDate+dates.m */; };
 		0476945D21EC610B002A91B4 /* NSTimer+timer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0476945C21EC610B002A91B4 /* NSTimer+timer.m */; };
+		047AE708224342E2007CC5BB /* HFSafeKVOManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AE705224342E1007CC5BB /* HFSafeKVOManager.m */; };
+		047AE709224342E2007CC5BB /* NSObject+HFKVOBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AE707224342E2007CC5BB /* NSObject+HFKVOBlock.m */; };
 		048CE15921E6DC7D00FF03E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CE15821E6DC7D00FF03E7 /* AppDelegate.m */; };
 		048CE15C21E6DC7D00FF03E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CE15B21E6DC7D00FF03E7 /* ViewController.m */; };
 		048CE15F21E6DC7D00FF03E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048CE15D21E6DC7D00FF03E7 /* Main.storyboard */; };
@@ -78,6 +80,10 @@
 		0476945821EC5B69002A91B4 /* NSDate+dates.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+dates.m"; sourceTree = "<group>"; };
 		0476945B21EC610B002A91B4 /* NSTimer+timer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+timer.h"; sourceTree = "<group>"; };
 		0476945C21EC610B002A91B4 /* NSTimer+timer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+timer.m"; sourceTree = "<group>"; };
+		047AE704224342E1007CC5BB /* HFSafeKVOManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFSafeKVOManager.h; sourceTree = "<group>"; };
+		047AE705224342E1007CC5BB /* HFSafeKVOManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFSafeKVOManager.m; sourceTree = "<group>"; };
+		047AE706224342E1007CC5BB /* NSObject+HFKVOBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HFKVOBlock.h"; sourceTree = "<group>"; };
+		047AE707224342E2007CC5BB /* NSObject+HFKVOBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HFKVOBlock.m"; sourceTree = "<group>"; };
 		048CE15421E6DC7D00FF03E7 /* BaseAPPFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseAPPFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		048CE15721E6DC7D00FF03E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		048CE15821E6DC7D00FF03E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -218,6 +224,17 @@
 			path = NSTime;
 			sourceTree = "<group>";
 		};
+		047AE703224342E1007CC5BB /* HFSafeKVOManager */ = {
+			isa = PBXGroup;
+			children = (
+				047AE704224342E1007CC5BB /* HFSafeKVOManager.h */,
+				047AE705224342E1007CC5BB /* HFSafeKVOManager.m */,
+				047AE706224342E1007CC5BB /* NSObject+HFKVOBlock.h */,
+				047AE707224342E2007CC5BB /* NSObject+HFKVOBlock.m */,
+			);
+			path = HFSafeKVOManager;
+			sourceTree = "<group>";
+		};
 		048CE14B21E6DC7D00FF03E7 = {
 			isa = PBXGroup;
 			children = (
@@ -267,6 +284,7 @@
 		048CE18921E712DC00FF03E7 /* WQQToolsKit */ = {
 			isa = PBXGroup;
 			children = (
+				047AE703224342E1007CC5BB /* HFSafeKVOManager */,
 				04487687223F731B00F27994 /* LMSecurityScreen-APP进入后台高斯模糊效果 */,
 				044267862239EE84007A800D /* UITabBarItem+Badge */,
 				04597AB52239100300542D14 /* NSArray+监听数组个数 */,
@@ -380,6 +398,7 @@
 				044AAB7A21E82AA3009F0EA2 /* UIView+WQFrame.m in Sources */,
 				0476945921EC5B69002A91B4 /* NSDate+dates.m in Sources */,
 				048CE19721E717A100FF03E7 /* UIButton+WWBtnClickDelay.m in Sources */,
+				047AE709224342E2007CC5BB /* NSObject+HFKVOBlock.m in Sources */,
 				04597801222637E70027C5A3 /* UIButton+Badge.m in Sources */,
 				0448768F223F731B00F27994 /* LMSecurityScreen.m in Sources */,
 				04640546221541060094DE93 /* LTTableViewCell.m in Sources */,
@@ -398,6 +417,7 @@
 				048CE16721E6DC7F00FF03E7 /* main.m in Sources */,
 				04487690223F731B00F27994 /* UIImage+LMSS.m in Sources */,
 				048CE15921E6DC7D00FF03E7 /* AppDelegate.m in Sources */,
+				047AE708224342E2007CC5BB /* HFSafeKVOManager.m in Sources */,
 				048CE17921E6F10900FF03E7 /* WQHomeViewController.m in Sources */,
 				0464054922154D2F0094DE93 /* LTTestTableViewCell.m in Sources */,
 			);
