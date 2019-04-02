@@ -22,6 +22,7 @@
 		04640546221541060094DE93 /* LTTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04640544221541060094DE93 /* LTTableViewCell.m */; };
 		0464054922154D2F0094DE93 /* LTTestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0464054822154D2F0094DE93 /* LTTestTableViewCell.m */; };
 		0466C51822533DB000E20275 /* UIViewController+Swizzled.m in Sources */ = {isa = PBXBuildFile; fileRef = 0466C51722533DB000E20275 /* UIViewController+Swizzled.m */; };
+		0466C51B22533E8A00E20275 /* UIViewController+WQSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 0466C51922533E8900E20275 /* UIViewController+WQSwizzling.m */; };
 		0476945221EC3049002A91B4 /* UIColor+Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 0476945121EC3049002A91B4 /* UIColor+Gradient.m */; };
 		0476945921EC5B69002A91B4 /* NSDate+dates.m in Sources */ = {isa = PBXBuildFile; fileRef = 0476945821EC5B69002A91B4 /* NSDate+dates.m */; };
 		0476945D21EC610B002A91B4 /* NSTimer+timer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0476945C21EC610B002A91B4 /* NSTimer+timer.m */; };
@@ -72,6 +73,8 @@
 		0464054822154D2F0094DE93 /* LTTestTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTTestTableViewCell.m; sourceTree = "<group>"; };
 		0466C51622533DB000E20275 /* UIViewController+Swizzled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Swizzled.h"; sourceTree = "<group>"; };
 		0466C51722533DB000E20275 /* UIViewController+Swizzled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Swizzled.m"; sourceTree = "<group>"; };
+		0466C51922533E8900E20275 /* UIViewController+WQSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+WQSwizzling.m"; sourceTree = "<group>"; };
+		0466C51A22533E8900E20275 /* UIViewController+WQSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+WQSwizzling.h"; sourceTree = "<group>"; };
 		0476945021EC3049002A91B4 /* UIColor+Gradient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Gradient.h"; sourceTree = "<group>"; };
 		0476945121EC3049002A91B4 /* UIColor+Gradient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Gradient.m"; sourceTree = "<group>"; };
 		0476945721EC5B69002A91B4 /* NSDate+dates.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+dates.h"; sourceTree = "<group>"; };
@@ -197,13 +200,15 @@
 			path = LTTableViewCell;
 			sourceTree = "<group>";
 		};
-		0466C51522533CF000E20275 /* 当前显示控制器名称打印 */ = {
+		0466C51522533CF000E20275 /* 当前显示控制器名称打印2选1 */ = {
 			isa = PBXGroup;
 			children = (
+				0466C51A22533E8900E20275 /* UIViewController+WQSwizzling.h */,
+				0466C51922533E8900E20275 /* UIViewController+WQSwizzling.m */,
 				0466C51622533DB000E20275 /* UIViewController+Swizzled.h */,
 				0466C51722533DB000E20275 /* UIViewController+Swizzled.m */,
 			);
-			path = "当前显示控制器名称打印";
+			path = "当前显示控制器名称打印2选1";
 			sourceTree = "<group>";
 		};
 		0476944C21EC2FC6002A91B4 /* UIColor */ = {
@@ -293,7 +298,7 @@
 		048CE18921E712DC00FF03E7 /* WQQToolsKit */ = {
 			isa = PBXGroup;
 			children = (
-				0466C51522533CF000E20275 /* 当前显示控制器名称打印 */,
+				0466C51522533CF000E20275 /* 当前显示控制器名称打印2选1 */,
 				047AE703224342E1007CC5BB /* HFSafeKVOManager */,
 				04487687223F731B00F27994 /* LMSecurityScreen-APP进入后台高斯模糊效果 */,
 				044267862239EE84007A800D /* UITabBarItem+Badge */,
@@ -407,6 +412,7 @@
 				0466C51822533DB000E20275 /* UIViewController+Swizzled.m in Sources */,
 				0476945921EC5B69002A91B4 /* NSDate+dates.m in Sources */,
 				048CE19721E717A100FF03E7 /* UIButton+WWBtnClickDelay.m in Sources */,
+				0466C51B22533E8A00E20275 /* UIViewController+WQSwizzling.m in Sources */,
 				047AE709224342E2007CC5BB /* NSObject+HFKVOBlock.m in Sources */,
 				04597801222637E70027C5A3 /* UIButton+Badge.m in Sources */,
 				0448768F223F731B00F27994 /* LMSecurityScreen.m in Sources */,
