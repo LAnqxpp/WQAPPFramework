@@ -39,6 +39,7 @@
 		048CE17921E6F10900FF03E7 /* WQHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CE17821E6F10900FF03E7 /* WQHomeViewController.m */; };
 		048CE19321E7142000FF03E7 /* WGControllerPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CE19121E7142000FF03E7 /* WGControllerPush.m */; };
 		048CE19721E717A100FF03E7 /* UIButton+WWBtnClickDelay.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CE19621E717A100FF03E7 /* UIButton+WWBtnClickDelay.m */; };
+		65C06B472260D9310045CAA4 /* QPDialCodeStringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C06B462260D9310045CAA4 /* QPDialCodeStringUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -106,6 +107,8 @@
 		048CE19221E7142000FF03E7 /* WGControllerPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGControllerPush.h; sourceTree = "<group>"; };
 		048CE19521E717A100FF03E7 /* UIButton+WWBtnClickDelay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WWBtnClickDelay.h"; sourceTree = "<group>"; };
 		048CE19621E717A100FF03E7 /* UIButton+WWBtnClickDelay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WWBtnClickDelay.m"; sourceTree = "<group>"; };
+		65C06B452260D9310045CAA4 /* QPDialCodeStringUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QPDialCodeStringUtil.h; sourceTree = "<group>"; };
+		65C06B462260D9310045CAA4 /* QPDialCodeStringUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QPDialCodeStringUtil.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -303,6 +306,7 @@
 		048CE18921E712DC00FF03E7 /* WQQToolsKit */ = {
 			isa = PBXGroup;
 			children = (
+				65C06B442260D8F80045CAA4 /* NSString */,
 				0466C51522533CF000E20275 /* 当前显示控制器名称打印2选1 */,
 				047AE703224342E1007CC5BB /* HFSafeKVOManager */,
 				04487687223F731B00F27994 /* LMSecurityScreen-APP进入后台高斯模糊效果 */,
@@ -339,6 +343,15 @@
 				048CE19621E717A100FF03E7 /* UIButton+WWBtnClickDelay.m */,
 			);
 			path = UIButton;
+			sourceTree = "<group>";
+		};
+		65C06B442260D8F80045CAA4 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				65C06B452260D9310045CAA4 /* QPDialCodeStringUtil.h */,
+				65C06B462260D9310045CAA4 /* QPDialCodeStringUtil.m */,
+			);
+			path = NSString;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -420,6 +433,7 @@
 				0466C52122533F8C00E20275 /* BaseViewController.m in Sources */,
 				0466C51B22533E8A00E20275 /* UIViewController+WQSwizzling.m in Sources */,
 				047AE709224342E2007CC5BB /* NSObject+HFKVOBlock.m in Sources */,
+				65C06B472260D9310045CAA4 /* QPDialCodeStringUtil.m in Sources */,
 				04597801222637E70027C5A3 /* UIButton+Badge.m in Sources */,
 				0448768F223F731B00F27994 /* LMSecurityScreen.m in Sources */,
 				04640546221541060094DE93 /* LTTableViewCell.m in Sources */,
