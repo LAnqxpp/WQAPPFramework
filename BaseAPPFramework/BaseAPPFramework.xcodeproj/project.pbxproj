@@ -40,11 +40,14 @@
 		048CE19321E7142000FF03E7 /* WGControllerPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CE19121E7142000FF03E7 /* WGControllerPush.m */; };
 		048CE19721E717A100FF03E7 /* UIButton+WWBtnClickDelay.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CE19621E717A100FF03E7 /* UIButton+WWBtnClickDelay.m */; };
 <<<<<<< HEAD
+<<<<<<< HEAD
 		04FD81DA226708840027315D /* UIButton+ZREdgeInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FD81D6226708830027315D /* UIButton+ZREdgeInsets.m */; };
 		04FD81DB226708840027315D /* ZREdgeInsetsCustomerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FD81D9226708830027315D /* ZREdgeInsetsCustomerButton.m */; };
 =======
 		65C06B472260D9310045CAA4 /* QPDialCodeStringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C06B462260D9310045CAA4 /* QPDialCodeStringUtil.m */; };
 >>>>>>> f3b24c7cc1a9a2ef726c3ea3a40f02861f7d3b4e
+=======
+>>>>>>> parent of f3b24c7... 添加判断字符串为空和 字符串中是否有汉字
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -113,6 +116,7 @@
 		048CE19521E717A100FF03E7 /* UIButton+WWBtnClickDelay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WWBtnClickDelay.h"; sourceTree = "<group>"; };
 		048CE19621E717A100FF03E7 /* UIButton+WWBtnClickDelay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WWBtnClickDelay.m"; sourceTree = "<group>"; };
 <<<<<<< HEAD
+<<<<<<< HEAD
 		04FD81D6226708830027315D /* UIButton+ZREdgeInsets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ZREdgeInsets.m"; sourceTree = "<group>"; };
 		04FD81D7226708830027315D /* ZREdgeInsetsCustomerButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZREdgeInsetsCustomerButton.h; sourceTree = "<group>"; };
 		04FD81D8226708830027315D /* UIButton+ZREdgeInsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ZREdgeInsets.h"; sourceTree = "<group>"; };
@@ -121,6 +125,8 @@
 		65C06B452260D9310045CAA4 /* QPDialCodeStringUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QPDialCodeStringUtil.h; sourceTree = "<group>"; };
 		65C06B462260D9310045CAA4 /* QPDialCodeStringUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QPDialCodeStringUtil.m; sourceTree = "<group>"; };
 >>>>>>> f3b24c7cc1a9a2ef726c3ea3a40f02861f7d3b4e
+=======
+>>>>>>> parent of f3b24c7... 添加判断字符串为空和 字符串中是否有汉字
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -318,7 +324,6 @@
 		048CE18921E712DC00FF03E7 /* WQQToolsKit */ = {
 			isa = PBXGroup;
 			children = (
-				65C06B442260D8F80045CAA4 /* NSString */,
 				0466C51522533CF000E20275 /* 当前显示控制器名称打印2选1 */,
 				047AE703224342E1007CC5BB /* HFSafeKVOManager */,
 				04487687223F731B00F27994 /* LMSecurityScreen-APP进入后台高斯模糊效果 */,
@@ -359,6 +364,7 @@
 			sourceTree = "<group>";
 		};
 <<<<<<< HEAD
+<<<<<<< HEAD
 		04FD81D5226708830027315D /* btn文字与图片位置 */ = {
 			isa = PBXGroup;
 			children = (
@@ -379,6 +385,8 @@
 >>>>>>> f3b24c7cc1a9a2ef726c3ea3a40f02861f7d3b4e
 			sourceTree = "<group>";
 		};
+=======
+>>>>>>> parent of f3b24c7... 添加判断字符串为空和 字符串中是否有汉字
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -459,7 +467,6 @@
 				04FD81DA226708840027315D /* UIButton+ZREdgeInsets.m in Sources */,
 				0466C51B22533E8A00E20275 /* UIViewController+WQSwizzling.m in Sources */,
 				047AE709224342E2007CC5BB /* NSObject+HFKVOBlock.m in Sources */,
-				65C06B472260D9310045CAA4 /* QPDialCodeStringUtil.m in Sources */,
 				04597801222637E70027C5A3 /* UIButton+Badge.m in Sources */,
 				0448768F223F731B00F27994 /* LMSecurityScreen.m in Sources */,
 				04640546221541060094DE93 /* LTTableViewCell.m in Sources */,
