@@ -28,6 +28,7 @@
 		047AE70C2243442C007CC5BB /* UIBarButtonItem+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AE70A2243442C007CC5BB /* UIBarButtonItem+Badge.m */; };
 		0483DDE6226818420016ECA3 /* ZREdgeInsetsCustomerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0483DDE2226818410016ECA3 /* ZREdgeInsetsCustomerButton.m */; };
 		0483DDE7226818420016ECA3 /* UIButton+ZREdgeInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 0483DDE5226818420016ECA3 /* UIButton+ZREdgeInsets.m */; };
+		0483DE78226834E60016ECA3 /* QPDialCodeStringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0483DE76226834E60016ECA3 /* QPDialCodeStringUtil.m */; };
 		048CE15921E6DC7D00FF03E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CE15821E6DC7D00FF03E7 /* AppDelegate.m */; };
 		048CE15C21E6DC7D00FF03E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CE15B21E6DC7D00FF03E7 /* ViewController.m */; };
 		048CE15F21E6DC7D00FF03E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048CE15D21E6DC7D00FF03E7 /* Main.storyboard */; };
@@ -84,6 +85,8 @@
 		0483DDE3226818410016ECA3 /* UIButton+ZREdgeInsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ZREdgeInsets.h"; sourceTree = "<group>"; };
 		0483DDE4226818420016ECA3 /* ZREdgeInsetsCustomerButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZREdgeInsetsCustomerButton.h; sourceTree = "<group>"; };
 		0483DDE5226818420016ECA3 /* UIButton+ZREdgeInsets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ZREdgeInsets.m"; sourceTree = "<group>"; };
+		0483DE76226834E60016ECA3 /* QPDialCodeStringUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QPDialCodeStringUtil.m; sourceTree = "<group>"; };
+		0483DE77226834E60016ECA3 /* QPDialCodeStringUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QPDialCodeStringUtil.h; sourceTree = "<group>"; };
 		048CE15421E6DC7D00FF03E7 /* BaseAPPFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseAPPFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		048CE15721E6DC7D00FF03E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		048CE15821E6DC7D00FF03E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -238,6 +241,15 @@
 			path = HFSafeKVOManager;
 			sourceTree = "<group>";
 		};
+		0483DE75226834D50016ECA3 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				0483DE77226834E60016ECA3 /* QPDialCodeStringUtil.h */,
+				0483DE76226834E60016ECA3 /* QPDialCodeStringUtil.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
 		048CE14B21E6DC7D00FF03E7 = {
 			isa = PBXGroup;
 			children = (
@@ -289,6 +301,7 @@
 		048CE18921E712DC00FF03E7 /* WQQToolsKit */ = {
 			isa = PBXGroup;
 			children = (
+				0483DE75226834D50016ECA3 /* NSString */,
 				0466C51522533CF000E20275 /* 当前显示控制器名称打印2选1 */,
 				047AE703224342E1007CC5BB /* HFSafeKVOManager */,
 				04487687223F731B00F27994 /* LMSecurityScreen-APP进入后台高斯模糊效果 */,
@@ -416,6 +429,7 @@
 				044AAB7F21E86CCC009F0EA2 /* NSObject+NotificationHelper.m in Sources */,
 				0483DDE6226818420016ECA3 /* ZREdgeInsetsCustomerButton.m in Sources */,
 				0476945221EC3049002A91B4 /* UIColor+Gradient.m in Sources */,
+				0483DE78226834E60016ECA3 /* QPDialCodeStringUtil.m in Sources */,
 				048CE15C21E6DC7D00FF03E7 /* ViewController.m in Sources */,
 				042B77A821F1768600B366F9 /* NSAttributedString+WQDifferentString.m in Sources */,
 				0476945D21EC610B002A91B4 /* NSTimer+timer.m in Sources */,
