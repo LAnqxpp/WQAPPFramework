@@ -15,10 +15,6 @@
 		044AAB7A21E82AA3009F0EA2 /* UIView+WQFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 044AAB7921E82AA3009F0EA2 /* UIView+WQFrame.m */; };
 		044AAB7F21E86CCC009F0EA2 /* NSObject+NotificationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 044AAB7E21E86CCC009F0EA2 /* NSObject+NotificationHelper.m */; };
 		04597801222637E70027C5A3 /* UIButton+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = 045977FF222637E70027C5A3 /* UIButton+Badge.m */; };
-		04597ABE2239100300542D14 /* KVOMutableArray+ReactiveCocoaSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 04597AB72239100300542D14 /* KVOMutableArray+ReactiveCocoaSupport.m */; };
-		04597ABF2239100300542D14 /* KVOMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 04597AB92239100300542D14 /* KVOMutableArray.m */; };
-		04597AC02239100300542D14 /* KVOMutableArrayObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 04597ABB2239100300542D14 /* KVOMutableArrayObserver.m */; };
-		04597AC12239100300542D14 /* NSObject+BlockObservation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04597ABD2239100300542D14 /* NSObject+BlockObservation.m */; };
 		04640546221541060094DE93 /* LTTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04640544221541060094DE93 /* LTTableViewCell.m */; };
 		0464054922154D2F0094DE93 /* LTTestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0464054822154D2F0094DE93 /* LTTestTableViewCell.m */; };
 		0466C51822533DB000E20275 /* UIViewController+Swizzled.m in Sources */ = {isa = PBXBuildFile; fileRef = 0466C51722533DB000E20275 /* UIViewController+Swizzled.m */; };
@@ -39,15 +35,6 @@
 		048CE17921E6F10900FF03E7 /* WQHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CE17821E6F10900FF03E7 /* WQHomeViewController.m */; };
 		048CE19321E7142000FF03E7 /* WGControllerPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CE19121E7142000FF03E7 /* WGControllerPush.m */; };
 		048CE19721E717A100FF03E7 /* UIButton+WWBtnClickDelay.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CE19621E717A100FF03E7 /* UIButton+WWBtnClickDelay.m */; };
-<<<<<<< HEAD
-<<<<<<< HEAD
-		04FD81DA226708840027315D /* UIButton+ZREdgeInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FD81D6226708830027315D /* UIButton+ZREdgeInsets.m */; };
-		04FD81DB226708840027315D /* ZREdgeInsetsCustomerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FD81D9226708830027315D /* ZREdgeInsetsCustomerButton.m */; };
-=======
-		65C06B472260D9310045CAA4 /* QPDialCodeStringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C06B462260D9310045CAA4 /* QPDialCodeStringUtil.m */; };
->>>>>>> f3b24c7cc1a9a2ef726c3ea3a40f02861f7d3b4e
-=======
->>>>>>> parent of f3b24c7... 添加判断字符串为空和 字符串中是否有汉字
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,14 +55,6 @@
 		044AAB7E21E86CCC009F0EA2 /* NSObject+NotificationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NotificationHelper.m"; sourceTree = "<group>"; };
 		045977FE222637E70027C5A3 /* UIButton+Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Badge.h"; sourceTree = "<group>"; };
 		045977FF222637E70027C5A3 /* UIButton+Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Badge.m"; sourceTree = "<group>"; };
-		04597AB62239100300542D14 /* KVOMutableArray+ReactiveCocoaSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KVOMutableArray+ReactiveCocoaSupport.h"; sourceTree = "<group>"; };
-		04597AB72239100300542D14 /* KVOMutableArray+ReactiveCocoaSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KVOMutableArray+ReactiveCocoaSupport.m"; sourceTree = "<group>"; };
-		04597AB82239100300542D14 /* KVOMutableArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVOMutableArray.h; sourceTree = "<group>"; };
-		04597AB92239100300542D14 /* KVOMutableArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVOMutableArray.m; sourceTree = "<group>"; };
-		04597ABA2239100300542D14 /* KVOMutableArrayObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVOMutableArrayObserver.h; sourceTree = "<group>"; };
-		04597ABB2239100300542D14 /* KVOMutableArrayObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVOMutableArrayObserver.m; sourceTree = "<group>"; };
-		04597ABC2239100300542D14 /* NSObject+BlockObservation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BlockObservation.h"; sourceTree = "<group>"; };
-		04597ABD2239100300542D14 /* NSObject+BlockObservation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BlockObservation.m"; sourceTree = "<group>"; };
 		04640543221541060094DE93 /* LTTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTTableViewCell.h; sourceTree = "<group>"; };
 		04640544221541060094DE93 /* LTTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTTableViewCell.m; sourceTree = "<group>"; };
 		04640545221541060094DE93 /* LTTableViewCellProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTTableViewCellProtocol.h; sourceTree = "<group>"; };
@@ -115,18 +94,6 @@
 		048CE19221E7142000FF03E7 /* WGControllerPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGControllerPush.h; sourceTree = "<group>"; };
 		048CE19521E717A100FF03E7 /* UIButton+WWBtnClickDelay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WWBtnClickDelay.h"; sourceTree = "<group>"; };
 		048CE19621E717A100FF03E7 /* UIButton+WWBtnClickDelay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WWBtnClickDelay.m"; sourceTree = "<group>"; };
-<<<<<<< HEAD
-<<<<<<< HEAD
-		04FD81D6226708830027315D /* UIButton+ZREdgeInsets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ZREdgeInsets.m"; sourceTree = "<group>"; };
-		04FD81D7226708830027315D /* ZREdgeInsetsCustomerButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZREdgeInsetsCustomerButton.h; sourceTree = "<group>"; };
-		04FD81D8226708830027315D /* UIButton+ZREdgeInsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ZREdgeInsets.h"; sourceTree = "<group>"; };
-		04FD81D9226708830027315D /* ZREdgeInsetsCustomerButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZREdgeInsetsCustomerButton.m; sourceTree = "<group>"; };
-=======
-		65C06B452260D9310045CAA4 /* QPDialCodeStringUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QPDialCodeStringUtil.h; sourceTree = "<group>"; };
-		65C06B462260D9310045CAA4 /* QPDialCodeStringUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QPDialCodeStringUtil.m; sourceTree = "<group>"; };
->>>>>>> f3b24c7cc1a9a2ef726c3ea3a40f02861f7d3b4e
-=======
->>>>>>> parent of f3b24c7... 添加判断字符串为空和 字符串中是否有汉字
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,14 +161,6 @@
 		04597AB52239100300542D14 /* NSArray+监听数组个数 */ = {
 			isa = PBXGroup;
 			children = (
-				04597AB62239100300542D14 /* KVOMutableArray+ReactiveCocoaSupport.h */,
-				04597AB72239100300542D14 /* KVOMutableArray+ReactiveCocoaSupport.m */,
-				04597AB82239100300542D14 /* KVOMutableArray.h */,
-				04597AB92239100300542D14 /* KVOMutableArray.m */,
-				04597ABA2239100300542D14 /* KVOMutableArrayObserver.h */,
-				04597ABB2239100300542D14 /* KVOMutableArrayObserver.m */,
-				04597ABC2239100300542D14 /* NSObject+BlockObservation.h */,
-				04597ABD2239100300542D14 /* NSObject+BlockObservation.m */,
 			);
 			path = "NSArray+监听数组个数";
 			sourceTree = "<group>";
@@ -354,7 +313,6 @@
 		048CE19421E7179700FF03E7 /* UIButton */ = {
 			isa = PBXGroup;
 			children = (
-				04FD81D5226708830027315D /* btn文字与图片位置 */,
 				045977FE222637E70027C5A3 /* UIButton+Badge.h */,
 				045977FF222637E70027C5A3 /* UIButton+Badge.m */,
 				048CE19521E717A100FF03E7 /* UIButton+WWBtnClickDelay.h */,
@@ -363,30 +321,6 @@
 			path = UIButton;
 			sourceTree = "<group>";
 		};
-<<<<<<< HEAD
-<<<<<<< HEAD
-		04FD81D5226708830027315D /* btn文字与图片位置 */ = {
-			isa = PBXGroup;
-			children = (
-				04FD81D6226708830027315D /* UIButton+ZREdgeInsets.m */,
-				04FD81D7226708830027315D /* ZREdgeInsetsCustomerButton.h */,
-				04FD81D8226708830027315D /* UIButton+ZREdgeInsets.h */,
-				04FD81D9226708830027315D /* ZREdgeInsetsCustomerButton.m */,
-			);
-			path = "btn文字与图片位置";
-=======
-		65C06B442260D8F80045CAA4 /* NSString */ = {
-			isa = PBXGroup;
-			children = (
-				65C06B452260D9310045CAA4 /* QPDialCodeStringUtil.h */,
-				65C06B462260D9310045CAA4 /* QPDialCodeStringUtil.m */,
-			);
-			path = NSString;
->>>>>>> f3b24c7cc1a9a2ef726c3ea3a40f02861f7d3b4e
-			sourceTree = "<group>";
-		};
-=======
->>>>>>> parent of f3b24c7... 添加判断字符串为空和 字符串中是否有汉字
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -458,13 +392,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04597AC12239100300542D14 /* NSObject+BlockObservation.m in Sources */,
 				044AAB7A21E82AA3009F0EA2 /* UIView+WQFrame.m in Sources */,
 				0466C51822533DB000E20275 /* UIViewController+Swizzled.m in Sources */,
 				0476945921EC5B69002A91B4 /* NSDate+dates.m in Sources */,
 				048CE19721E717A100FF03E7 /* UIButton+WWBtnClickDelay.m in Sources */,
 				0466C52122533F8C00E20275 /* BaseViewController.m in Sources */,
-				04FD81DA226708840027315D /* UIButton+ZREdgeInsets.m in Sources */,
 				0466C51B22533E8A00E20275 /* UIViewController+WQSwizzling.m in Sources */,
 				047AE709224342E2007CC5BB /* NSObject+HFKVOBlock.m in Sources */,
 				04597801222637E70027C5A3 /* UIButton+Badge.m in Sources */,
@@ -474,13 +406,9 @@
 				0476945221EC3049002A91B4 /* UIColor+Gradient.m in Sources */,
 				048CE15C21E6DC7D00FF03E7 /* ViewController.m in Sources */,
 				042B77A821F1768600B366F9 /* NSAttributedString+WQDifferentString.m in Sources */,
-				04FD81DB226708840027315D /* ZREdgeInsetsCustomerButton.m in Sources */,
-				04597ABF2239100300542D14 /* KVOMutableArray.m in Sources */,
-				04597AC02239100300542D14 /* KVOMutableArrayObserver.m in Sources */,
 				0476945D21EC610B002A91B4 /* NSTimer+timer.m in Sources */,
 				0448768E223F731B00F27994 /* LMSecurityImageView.m in Sources */,
 				048CE19321E7142000FF03E7 /* WGControllerPush.m in Sources */,
-				04597ABE2239100300542D14 /* KVOMutableArray+ReactiveCocoaSupport.m in Sources */,
 				048CE16721E6DC7F00FF03E7 /* main.m in Sources */,
 				047AE70C2243442C007CC5BB /* UIBarButtonItem+Badge.m in Sources */,
 				04487690223F731B00F27994 /* UIImage+LMSS.m in Sources */,
@@ -630,7 +558,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4M3AMBXTBE;
+				DEVELOPMENT_TEAM = 8EDMCH2Z7A;
 				INFOPLIST_FILE = BaseAPPFramework/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -648,7 +576,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4M3AMBXTBE;
+				DEVELOPMENT_TEAM = 8EDMCH2Z7A;
 				INFOPLIST_FILE = BaseAPPFramework/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
