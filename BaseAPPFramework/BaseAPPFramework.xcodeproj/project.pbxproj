@@ -26,6 +26,8 @@
 		047AE708224342E2007CC5BB /* HFSafeKVOManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AE705224342E1007CC5BB /* HFSafeKVOManager.m */; };
 		047AE709224342E2007CC5BB /* NSObject+HFKVOBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AE707224342E2007CC5BB /* NSObject+HFKVOBlock.m */; };
 		047AE70C2243442C007CC5BB /* UIBarButtonItem+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AE70A2243442C007CC5BB /* UIBarButtonItem+Badge.m */; };
+		0483DDE6226818420016ECA3 /* ZREdgeInsetsCustomerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0483DDE2226818410016ECA3 /* ZREdgeInsetsCustomerButton.m */; };
+		0483DDE7226818420016ECA3 /* UIButton+ZREdgeInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 0483DDE5226818420016ECA3 /* UIButton+ZREdgeInsets.m */; };
 		048CE15921E6DC7D00FF03E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CE15821E6DC7D00FF03E7 /* AppDelegate.m */; };
 		048CE15C21E6DC7D00FF03E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CE15B21E6DC7D00FF03E7 /* ViewController.m */; };
 		048CE15F21E6DC7D00FF03E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048CE15D21E6DC7D00FF03E7 /* Main.storyboard */; };
@@ -78,6 +80,10 @@
 		047AE707224342E2007CC5BB /* NSObject+HFKVOBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HFKVOBlock.m"; sourceTree = "<group>"; };
 		047AE70A2243442C007CC5BB /* UIBarButtonItem+Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Badge.m"; sourceTree = "<group>"; };
 		047AE70B2243442C007CC5BB /* UIBarButtonItem+Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Badge.h"; sourceTree = "<group>"; };
+		0483DDE2226818410016ECA3 /* ZREdgeInsetsCustomerButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZREdgeInsetsCustomerButton.m; sourceTree = "<group>"; };
+		0483DDE3226818410016ECA3 /* UIButton+ZREdgeInsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ZREdgeInsets.h"; sourceTree = "<group>"; };
+		0483DDE4226818420016ECA3 /* ZREdgeInsetsCustomerButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZREdgeInsetsCustomerButton.h; sourceTree = "<group>"; };
+		0483DDE5226818420016ECA3 /* UIButton+ZREdgeInsets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ZREdgeInsets.m"; sourceTree = "<group>"; };
 		048CE15421E6DC7D00FF03E7 /* BaseAPPFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseAPPFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		048CE15721E6DC7D00FF03E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		048CE15821E6DC7D00FF03E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -313,6 +319,10 @@
 		048CE19421E7179700FF03E7 /* UIButton */ = {
 			isa = PBXGroup;
 			children = (
+				0483DDE3226818410016ECA3 /* UIButton+ZREdgeInsets.h */,
+				0483DDE5226818420016ECA3 /* UIButton+ZREdgeInsets.m */,
+				0483DDE4226818420016ECA3 /* ZREdgeInsetsCustomerButton.h */,
+				0483DDE2226818410016ECA3 /* ZREdgeInsetsCustomerButton.m */,
 				045977FE222637E70027C5A3 /* UIButton+Badge.h */,
 				045977FF222637E70027C5A3 /* UIButton+Badge.m */,
 				048CE19521E717A100FF03E7 /* UIButton+WWBtnClickDelay.h */,
@@ -398,11 +408,13 @@
 				048CE19721E717A100FF03E7 /* UIButton+WWBtnClickDelay.m in Sources */,
 				0466C52122533F8C00E20275 /* BaseViewController.m in Sources */,
 				0466C51B22533E8A00E20275 /* UIViewController+WQSwizzling.m in Sources */,
+				0483DDE7226818420016ECA3 /* UIButton+ZREdgeInsets.m in Sources */,
 				047AE709224342E2007CC5BB /* NSObject+HFKVOBlock.m in Sources */,
 				04597801222637E70027C5A3 /* UIButton+Badge.m in Sources */,
 				0448768F223F731B00F27994 /* LMSecurityScreen.m in Sources */,
 				04640546221541060094DE93 /* LTTableViewCell.m in Sources */,
 				044AAB7F21E86CCC009F0EA2 /* NSObject+NotificationHelper.m in Sources */,
+				0483DDE6226818420016ECA3 /* ZREdgeInsetsCustomerButton.m in Sources */,
 				0476945221EC3049002A91B4 /* UIColor+Gradient.m in Sources */,
 				048CE15C21E6DC7D00FF03E7 /* ViewController.m in Sources */,
 				042B77A821F1768600B366F9 /* NSAttributedString+WQDifferentString.m in Sources */,
