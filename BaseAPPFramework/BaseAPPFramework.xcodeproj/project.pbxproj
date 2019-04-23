@@ -40,6 +40,7 @@
 		048CE19721E717A100FF03E7 /* UIButton+WWBtnClickDelay.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CE19621E717A100FF03E7 /* UIButton+WWBtnClickDelay.m */; };
 		04B68A63226EE5030032BF6C /* UIViewController+PlaceholderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B68A5F226EE5020032BF6C /* UIViewController+PlaceholderView.m */; };
 		04B68A64226EE5030032BF6C /* UKPlaceholderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B68A61226EE5020032BF6C /* UKPlaceholderView.m */; };
+		04B68A67226EE57D0032BF6C /* Manacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B68A65226EE57C0032BF6C /* Manacher.m */; };
 		65F6728E2268D49F005DFBCB /* MGLable.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F6728D2268D49F005DFBCB /* MGLable.m */; };
 /* End PBXBuildFile section */
 
@@ -110,6 +111,8 @@
 		04B68A60226EE5020032BF6C /* UIViewController+PlaceholderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PlaceholderView.h"; sourceTree = "<group>"; };
 		04B68A61226EE5020032BF6C /* UKPlaceholderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UKPlaceholderView.m; sourceTree = "<group>"; };
 		04B68A62226EE5020032BF6C /* UKPlaceholderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UKPlaceholderView.h; sourceTree = "<group>"; };
+		04B68A65226EE57C0032BF6C /* Manacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Manacher.m; sourceTree = "<group>"; };
+		04B68A66226EE57D0032BF6C /* Manacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Manacher.h; sourceTree = "<group>"; };
 		65F6728C2268D49F005DFBCB /* MGLable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLable.h; sourceTree = "<group>"; };
 		65F6728D2268D49F005DFBCB /* MGLable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLable.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -253,6 +256,8 @@
 		0483DE75226834D50016ECA3 /* NSString */ = {
 			isa = PBXGroup;
 			children = (
+				04B68A66226EE57D0032BF6C /* Manacher.h */,
+				04B68A65226EE57C0032BF6C /* Manacher.m */,
 				0483DE77226834E60016ECA3 /* QPDialCodeStringUtil.h */,
 				0483DE76226834E60016ECA3 /* QPDialCodeStringUtil.m */,
 			);
@@ -467,6 +472,7 @@
 				0448768F223F731B00F27994 /* LMSecurityScreen.m in Sources */,
 				04640546221541060094DE93 /* LTTableViewCell.m in Sources */,
 				04B68A63226EE5030032BF6C /* UIViewController+PlaceholderView.m in Sources */,
+				04B68A67226EE57D0032BF6C /* Manacher.m in Sources */,
 				044AAB7F21E86CCC009F0EA2 /* NSObject+NotificationHelper.m in Sources */,
 				0483DDE6226818420016ECA3 /* ZREdgeInsetsCustomerButton.m in Sources */,
 				0476945221EC3049002A91B4 /* UIColor+Gradient.m in Sources */,
