@@ -38,6 +38,8 @@
 		048CE17921E6F10900FF03E7 /* WQHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CE17821E6F10900FF03E7 /* WQHomeViewController.m */; };
 		048CE19321E7142000FF03E7 /* WGControllerPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CE19121E7142000FF03E7 /* WGControllerPush.m */; };
 		048CE19721E717A100FF03E7 /* UIButton+WWBtnClickDelay.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CE19621E717A100FF03E7 /* UIButton+WWBtnClickDelay.m */; };
+		04B68A63226EE5030032BF6C /* UIViewController+PlaceholderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B68A5F226EE5020032BF6C /* UIViewController+PlaceholderView.m */; };
+		04B68A64226EE5030032BF6C /* UKPlaceholderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B68A61226EE5020032BF6C /* UKPlaceholderView.m */; };
 		65F6728E2268D49F005DFBCB /* MGLable.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F6728D2268D49F005DFBCB /* MGLable.m */; };
 /* End PBXBuildFile section */
 
@@ -104,6 +106,10 @@
 		048CE19221E7142000FF03E7 /* WGControllerPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGControllerPush.h; sourceTree = "<group>"; };
 		048CE19521E717A100FF03E7 /* UIButton+WWBtnClickDelay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WWBtnClickDelay.h"; sourceTree = "<group>"; };
 		048CE19621E717A100FF03E7 /* UIButton+WWBtnClickDelay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WWBtnClickDelay.m"; sourceTree = "<group>"; };
+		04B68A5F226EE5020032BF6C /* UIViewController+PlaceholderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PlaceholderView.m"; sourceTree = "<group>"; };
+		04B68A60226EE5020032BF6C /* UIViewController+PlaceholderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PlaceholderView.h"; sourceTree = "<group>"; };
+		04B68A61226EE5020032BF6C /* UKPlaceholderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UKPlaceholderView.m; sourceTree = "<group>"; };
+		04B68A62226EE5020032BF6C /* UKPlaceholderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UKPlaceholderView.h; sourceTree = "<group>"; };
 		65F6728C2268D49F005DFBCB /* MGLable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLable.h; sourceTree = "<group>"; };
 		65F6728D2268D49F005DFBCB /* MGLable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLable.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -305,6 +311,7 @@
 		048CE18921E712DC00FF03E7 /* WQQToolsKit */ = {
 			isa = PBXGroup;
 			children = (
+				04B68A5E226EE4E10032BF6C /* 网络加载失败图显示 */,
 				0483DE75226834D50016ECA3 /* NSString */,
 				0466C51522533CF000E20275 /* 当前显示控制器名称打印2选1 */,
 				047AE703224342E1007CC5BB /* HFSafeKVOManager */,
@@ -346,6 +353,17 @@
 				048CE19621E717A100FF03E7 /* UIButton+WWBtnClickDelay.m */,
 			);
 			path = UIButton;
+			sourceTree = "<group>";
+		};
+		04B68A5E226EE4E10032BF6C /* 网络加载失败图显示 */ = {
+			isa = PBXGroup;
+			children = (
+				04B68A60226EE5020032BF6C /* UIViewController+PlaceholderView.h */,
+				04B68A5F226EE5020032BF6C /* UIViewController+PlaceholderView.m */,
+				04B68A62226EE5020032BF6C /* UKPlaceholderView.h */,
+				04B68A61226EE5020032BF6C /* UKPlaceholderView.m */,
+			);
+			path = "网络加载失败图显示";
 			sourceTree = "<group>";
 		};
 		65F6728A2268D3A2005DFBCB /* 国际化语言 */ = {
@@ -440,6 +458,7 @@
 				0466C51822533DB000E20275 /* UIViewController+Swizzled.m in Sources */,
 				0476945921EC5B69002A91B4 /* NSDate+dates.m in Sources */,
 				048CE19721E717A100FF03E7 /* UIButton+WWBtnClickDelay.m in Sources */,
+				04B68A64226EE5030032BF6C /* UKPlaceholderView.m in Sources */,
 				0466C52122533F8C00E20275 /* BaseViewController.m in Sources */,
 				0466C51B22533E8A00E20275 /* UIViewController+WQSwizzling.m in Sources */,
 				0483DDE7226818420016ECA3 /* UIButton+ZREdgeInsets.m in Sources */,
@@ -447,6 +466,7 @@
 				04597801222637E70027C5A3 /* UIButton+Badge.m in Sources */,
 				0448768F223F731B00F27994 /* LMSecurityScreen.m in Sources */,
 				04640546221541060094DE93 /* LTTableViewCell.m in Sources */,
+				04B68A63226EE5030032BF6C /* UIViewController+PlaceholderView.m in Sources */,
 				044AAB7F21E86CCC009F0EA2 /* NSObject+NotificationHelper.m in Sources */,
 				0483DDE6226818420016ECA3 /* ZREdgeInsetsCustomerButton.m in Sources */,
 				0476945221EC3049002A91B4 /* UIColor+Gradient.m in Sources */,
