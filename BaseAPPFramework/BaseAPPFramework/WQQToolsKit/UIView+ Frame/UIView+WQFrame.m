@@ -40,7 +40,30 @@
 - (CGFloat)height {
     return self.frame.size.height;
 }
+- (void)setWq_origin:(CGPoint)wq_origin
+{
+    CGRect frame = self.frame;
+    frame.origin = wq_origin;
+    self.frame = frame;
+}
 
+- (void)setWq_center:(CGPoint)wq_center
+{
+    CGRect frame = self.frame;
+    frame.origin.x = wq_center.x - frame.size.width * 0.5;
+    frame.origin.y = wq_center.y - frame.size.width * 0.5;
+    self.frame = frame;
+}
+
+- (CGPoint)wq_center
+{
+    return CGPointMake(self.frame.origin.x + self.frame.size.width * 0.5, self.frame.origin.y + self.frame.size.height * 0.5);
+}
+
+- (CGPoint)wq_origin
+{
+    return self.frame.origin;
+}
 
 - (void)setCenterX:(CGFloat)centerX {
     self.center = CGPointMake(centerX, self.centerY);

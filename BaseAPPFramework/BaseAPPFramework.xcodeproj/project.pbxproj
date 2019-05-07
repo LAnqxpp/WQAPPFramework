@@ -41,6 +41,7 @@
 		04B68A63226EE5030032BF6C /* UIViewController+PlaceholderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B68A5F226EE5020032BF6C /* UIViewController+PlaceholderView.m */; };
 		04B68A64226EE5030032BF6C /* UKPlaceholderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B68A61226EE5020032BF6C /* UKPlaceholderView.m */; };
 		04B68A67226EE57D0032BF6C /* Manacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B68A65226EE57C0032BF6C /* Manacher.m */; };
+		04B871A322813A400041A110 /* SKPreviewer.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B871A222813A3F0041A110 /* SKPreviewer.m */; };
 		65F6728E2268D49F005DFBCB /* MGLable.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F6728D2268D49F005DFBCB /* MGLable.m */; };
 /* End PBXBuildFile section */
 
@@ -113,6 +114,8 @@
 		04B68A62226EE5020032BF6C /* UKPlaceholderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UKPlaceholderView.h; sourceTree = "<group>"; };
 		04B68A65226EE57C0032BF6C /* Manacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Manacher.m; sourceTree = "<group>"; };
 		04B68A66226EE57D0032BF6C /* Manacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Manacher.h; sourceTree = "<group>"; };
+		04B871A122813A3F0041A110 /* SKPreviewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKPreviewer.h; sourceTree = "<group>"; };
+		04B871A222813A3F0041A110 /* SKPreviewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKPreviewer.m; sourceTree = "<group>"; };
 		65F6728C2268D49F005DFBCB /* MGLable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLable.h; sourceTree = "<group>"; };
 		65F6728D2268D49F005DFBCB /* MGLable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLable.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -316,6 +319,7 @@
 		048CE18921E712DC00FF03E7 /* WQQToolsKit */ = {
 			isa = PBXGroup;
 			children = (
+				04B871A022813A090041A110 /* 头像点击查看 */,
 				04B68A5E226EE4E10032BF6C /* 网络加载失败图显示 */,
 				0483DE75226834D50016ECA3 /* NSString */,
 				0466C51522533CF000E20275 /* 当前显示控制器名称打印2选1 */,
@@ -369,6 +373,15 @@
 				04B68A61226EE5020032BF6C /* UKPlaceholderView.m */,
 			);
 			path = "网络加载失败图显示";
+			sourceTree = "<group>";
+		};
+		04B871A022813A090041A110 /* 头像点击查看 */ = {
+			isa = PBXGroup;
+			children = (
+				04B871A122813A3F0041A110 /* SKPreviewer.h */,
+				04B871A222813A3F0041A110 /* SKPreviewer.m */,
+			);
+			path = "头像点击查看";
 			sourceTree = "<group>";
 		};
 		65F6728A2268D3A2005DFBCB /* 国际化语言 */ = {
@@ -490,6 +503,7 @@
 				047AE708224342E2007CC5BB /* HFSafeKVOManager.m in Sources */,
 				048CE17921E6F10900FF03E7 /* WQHomeViewController.m in Sources */,
 				0464054922154D2F0094DE93 /* LTTestTableViewCell.m in Sources */,
+				04B871A322813A400041A110 /* SKPreviewer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
