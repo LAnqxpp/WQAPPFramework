@@ -46,6 +46,7 @@
 		04B871AE228164E60041A110 /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B871A8228164E60041A110 /* WebViewJavascriptBridgeBase.m */; };
 		04B871AF228164E60041A110 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B871A9228164E60041A110 /* WebViewJavascriptBridge.m */; };
 		04B871B0228164E60041A110 /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B871AC228164E60041A110 /* WKWebViewJavascriptBridge.m */; };
+		04B871C02281BC9E0041A110 /* JYCWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B871BF2281BC9E0041A110 /* JYCWindow.m */; };
 		65F6728E2268D49F005DFBCB /* MGLable.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F6728D2268D49F005DFBCB /* MGLable.m */; };
 /* End PBXBuildFile section */
 
@@ -128,6 +129,8 @@
 		04B871AA228164E60041A110 /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge.h; sourceTree = "<group>"; };
 		04B871AB228164E60041A110 /* WebViewJavascriptBridge_JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge_JS.h; sourceTree = "<group>"; };
 		04B871AC228164E60041A110 /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		04B871BE2281BC9E0041A110 /* JYCWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYCWindow.h; sourceTree = "<group>"; };
+		04B871BF2281BC9E0041A110 /* JYCWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYCWindow.m; sourceTree = "<group>"; };
 		65F6728C2268D49F005DFBCB /* MGLable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLable.h; sourceTree = "<group>"; };
 		65F6728D2268D49F005DFBCB /* MGLable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLable.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -331,6 +334,7 @@
 		048CE18921E712DC00FF03E7 /* WQQToolsKit */ = {
 			isa = PBXGroup;
 			children = (
+				04B871BD2281BC850041A110 /* 浮窗 */,
 				04B871A4228164AD0041A110 /* WebViewJavascriptBridge */,
 				04B871A022813A090041A110 /* 头像点击查看 */,
 				04B68A5E226EE4E10032BF6C /* 网络加载失败图显示 */,
@@ -410,6 +414,15 @@
 				04B871AC228164E60041A110 /* WKWebViewJavascriptBridge.m */,
 			);
 			path = WebViewJavascriptBridge;
+			sourceTree = "<group>";
+		};
+		04B871BD2281BC850041A110 /* 浮窗 */ = {
+			isa = PBXGroup;
+			children = (
+				04B871BE2281BC9E0041A110 /* JYCWindow.h */,
+				04B871BF2281BC9E0041A110 /* JYCWindow.m */,
+			);
+			path = "浮窗";
 			sourceTree = "<group>";
 		};
 		65F6728A2268D3A2005DFBCB /* 国际化语言 */ = {
@@ -530,6 +543,7 @@
 				047AE70C2243442C007CC5BB /* UIBarButtonItem+Badge.m in Sources */,
 				04487690223F731B00F27994 /* UIImage+LMSS.m in Sources */,
 				048CE15921E6DC7D00FF03E7 /* AppDelegate.m in Sources */,
+				04B871C02281BC9E0041A110 /* JYCWindow.m in Sources */,
 				047AE708224342E2007CC5BB /* HFSafeKVOManager.m in Sources */,
 				048CE17921E6F10900FF03E7 /* WQHomeViewController.m in Sources */,
 				04B871AE228164E60041A110 /* WebViewJavascriptBridgeBase.m in Sources */,
