@@ -42,6 +42,10 @@
 		04B68A64226EE5030032BF6C /* UKPlaceholderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B68A61226EE5020032BF6C /* UKPlaceholderView.m */; };
 		04B68A67226EE57D0032BF6C /* Manacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B68A65226EE57C0032BF6C /* Manacher.m */; };
 		04B871A322813A400041A110 /* SKPreviewer.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B871A222813A3F0041A110 /* SKPreviewer.m */; };
+		04B871AD228164E60041A110 /* WebViewJavascriptBridge_JS.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B871A5228164E60041A110 /* WebViewJavascriptBridge_JS.m */; };
+		04B871AE228164E60041A110 /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B871A8228164E60041A110 /* WebViewJavascriptBridgeBase.m */; };
+		04B871AF228164E60041A110 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B871A9228164E60041A110 /* WebViewJavascriptBridge.m */; };
+		04B871B0228164E60041A110 /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B871AC228164E60041A110 /* WKWebViewJavascriptBridge.m */; };
 		65F6728E2268D49F005DFBCB /* MGLable.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F6728D2268D49F005DFBCB /* MGLable.m */; };
 /* End PBXBuildFile section */
 
@@ -116,6 +120,14 @@
 		04B68A66226EE57D0032BF6C /* Manacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Manacher.h; sourceTree = "<group>"; };
 		04B871A122813A3F0041A110 /* SKPreviewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKPreviewer.h; sourceTree = "<group>"; };
 		04B871A222813A3F0041A110 /* SKPreviewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKPreviewer.m; sourceTree = "<group>"; };
+		04B871A5228164E60041A110 /* WebViewJavascriptBridge_JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge_JS.m; sourceTree = "<group>"; };
+		04B871A6228164E60041A110 /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
+		04B871A7228164E60041A110 /* WKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		04B871A8228164E60041A110 /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
+		04B871A9228164E60041A110 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		04B871AA228164E60041A110 /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		04B871AB228164E60041A110 /* WebViewJavascriptBridge_JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge_JS.h; sourceTree = "<group>"; };
+		04B871AC228164E60041A110 /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
 		65F6728C2268D49F005DFBCB /* MGLable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLable.h; sourceTree = "<group>"; };
 		65F6728D2268D49F005DFBCB /* MGLable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLable.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -319,6 +331,7 @@
 		048CE18921E712DC00FF03E7 /* WQQToolsKit */ = {
 			isa = PBXGroup;
 			children = (
+				04B871A4228164AD0041A110 /* WebViewJavascriptBridge */,
 				04B871A022813A090041A110 /* 头像点击查看 */,
 				04B68A5E226EE4E10032BF6C /* 网络加载失败图显示 */,
 				0483DE75226834D50016ECA3 /* NSString */,
@@ -382,6 +395,21 @@
 				04B871A222813A3F0041A110 /* SKPreviewer.m */,
 			);
 			path = "头像点击查看";
+			sourceTree = "<group>";
+		};
+		04B871A4228164AD0041A110 /* WebViewJavascriptBridge */ = {
+			isa = PBXGroup;
+			children = (
+				04B871AB228164E60041A110 /* WebViewJavascriptBridge_JS.h */,
+				04B871A5228164E60041A110 /* WebViewJavascriptBridge_JS.m */,
+				04B871AA228164E60041A110 /* WebViewJavascriptBridge.h */,
+				04B871A9228164E60041A110 /* WebViewJavascriptBridge.m */,
+				04B871A6228164E60041A110 /* WebViewJavascriptBridgeBase.h */,
+				04B871A8228164E60041A110 /* WebViewJavascriptBridgeBase.m */,
+				04B871A7228164E60041A110 /* WKWebViewJavascriptBridge.h */,
+				04B871AC228164E60041A110 /* WKWebViewJavascriptBridge.m */,
+			);
+			path = WebViewJavascriptBridge;
 			sourceTree = "<group>";
 		};
 		65F6728A2268D3A2005DFBCB /* 国际化语言 */ = {
@@ -477,6 +505,7 @@
 				0476945921EC5B69002A91B4 /* NSDate+dates.m in Sources */,
 				048CE19721E717A100FF03E7 /* UIButton+WWBtnClickDelay.m in Sources */,
 				04B68A64226EE5030032BF6C /* UKPlaceholderView.m in Sources */,
+				04B871B0228164E60041A110 /* WKWebViewJavascriptBridge.m in Sources */,
 				0466C52122533F8C00E20275 /* BaseViewController.m in Sources */,
 				0466C51B22533E8A00E20275 /* UIViewController+WQSwizzling.m in Sources */,
 				0483DDE7226818420016ECA3 /* UIButton+ZREdgeInsets.m in Sources */,
@@ -491,6 +520,7 @@
 				0476945221EC3049002A91B4 /* UIColor+Gradient.m in Sources */,
 				0483DE78226834E60016ECA3 /* QPDialCodeStringUtil.m in Sources */,
 				048CE15C21E6DC7D00FF03E7 /* ViewController.m in Sources */,
+				04B871AF228164E60041A110 /* WebViewJavascriptBridge.m in Sources */,
 				65F6728E2268D49F005DFBCB /* MGLable.m in Sources */,
 				042B77A821F1768600B366F9 /* NSAttributedString+WQDifferentString.m in Sources */,
 				0476945D21EC610B002A91B4 /* NSTimer+timer.m in Sources */,
@@ -502,8 +532,10 @@
 				048CE15921E6DC7D00FF03E7 /* AppDelegate.m in Sources */,
 				047AE708224342E2007CC5BB /* HFSafeKVOManager.m in Sources */,
 				048CE17921E6F10900FF03E7 /* WQHomeViewController.m in Sources */,
+				04B871AE228164E60041A110 /* WebViewJavascriptBridgeBase.m in Sources */,
 				0464054922154D2F0094DE93 /* LTTestTableViewCell.m in Sources */,
 				04B871A322813A400041A110 /* SKPreviewer.m in Sources */,
+				04B871AD228164E60041A110 /* WebViewJavascriptBridge_JS.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
