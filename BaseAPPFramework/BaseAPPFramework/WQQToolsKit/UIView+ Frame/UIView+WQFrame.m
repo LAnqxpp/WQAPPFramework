@@ -9,91 +9,109 @@
 #import "UIView+WQFrame.h"
 
 @implementation UIView (WQFrame)
-- (void)setX:(CGFloat)x {
-    self.frame = CGRectMake(x, self.y, self.width, self.height);
-}
-
-- (CGFloat)x {
+- (CGFloat)jt_left {
     return self.frame.origin.x;
 }
 
-- (void)setY:(CGFloat)y {
-    self.frame = CGRectMake(self.x, y, self.width, self.height);
+- (void)setJt_left:(CGFloat)x {
+    CGRect frame = self.frame;
+    frame.origin.x = x;
+    self.frame = frame;
 }
 
-- (CGFloat)y {
+- (CGFloat)jt_top {
     return self.frame.origin.y;
 }
 
-- (void)setWidth:(CGFloat)width {
-    self.frame = CGRectMake(self.x, self.y, width, self.height);
+- (void)setJt_top:(CGFloat)y {
+    CGRect frame = self.frame;
+    frame.origin.y = y;
+    self.frame = frame;
 }
 
-- (CGFloat)width {
+- (CGFloat)jt_right {
+    return self.frame.origin.x + self.frame.size.width;
+}
+
+- (void)setJt_right:(CGFloat)right {
+    CGRect frame = self.frame;
+    frame.origin.x = right - frame.size.width;
+    self.frame = frame;
+}
+
+- (CGFloat)jt_bottom {
+    return self.frame.origin.y + self.frame.size.height;
+}
+
+- (void)setJt_bottom:(CGFloat)bottom {
+    CGRect frame = self.frame;
+    frame.origin.y = bottom - frame.size.height;
+    self.frame = frame;
+}
+
+- (CGFloat)jt_width {
     return self.frame.size.width;
 }
 
-- (void)setHeight:(CGFloat)height {
-    self.frame = CGRectMake(self.x, self.y, self.width, height);
+- (void)setJt_width:(CGFloat)width {
+    CGRect frame = self.frame;
+    frame.size.width = width;
+    self.frame = frame;
 }
 
-- (CGFloat)height {
+- (CGFloat)jt_height {
     return self.frame.size.height;
 }
-- (void)setWq_origin:(CGPoint)wq_origin
-{
+
+- (void)setJt_height:(CGFloat)height {
     CGRect frame = self.frame;
-    frame.origin = wq_origin;
+    frame.size.height = height;
     self.frame = frame;
 }
 
-- (void)setWq_center:(CGPoint)wq_center
-{
-    CGRect frame = self.frame;
-    frame.origin.x = wq_center.x - frame.size.width * 0.5;
-    frame.origin.y = wq_center.y - frame.size.width * 0.5;
-    self.frame = frame;
-}
-
-- (CGPoint)wq_center
-{
-    return CGPointMake(self.frame.origin.x + self.frame.size.width * 0.5, self.frame.origin.y + self.frame.size.height * 0.5);
-}
-
-- (CGPoint)wq_origin
-{
-    return self.frame.origin;
-}
-
-- (void)setCenterX:(CGFloat)centerX {
-    self.center = CGPointMake(centerX, self.centerY);
-}
-
-- (CGFloat)centerX {
+- (CGFloat)jt_centerX {
     return self.center.x;
 }
 
-- (void)setCenterY:(CGFloat)centerY {
-    self.center = CGPointMake(self.centerX, centerY);
+- (void)setJt_centerX:(CGFloat)centerX {
+    self.center = CGPointMake(centerX, self.center.y);
 }
 
-- (CGFloat)centerY {
+- (CGFloat)jt_centerY {
     return self.center.y;
 }
 
-- (CGFloat)maxX {
-    return CGRectGetMaxX(self.frame);
+- (void)setJt_centerY:(CGFloat)centerY {
+    self.center = CGPointMake(self.center.x, centerY);
 }
 
-- (CGFloat)minX {
-    return CGRectGetMinX(self.frame);
+- (CGPoint)jt_origin {
+    return self.frame.origin;
 }
 
-- (CGFloat)maxY {
-    return CGRectGetMaxY(self.frame);
+- (void)setJt_origin:(CGPoint)origin {
+    CGRect frame = self.frame;
+    frame.origin = origin;
+    self.frame = frame;
 }
 
-- (CGFloat)minY {
-    return CGRectGetMinY(self.frame);
+- (CGSize)size {
+    return self.frame.size;
+}
+
+- (void)setSize:(CGSize)size {
+    CGRect frame = self.frame;
+    frame.size = size;
+    self.frame = frame;
+}
+
+- (CGSize)jt_size {
+    return self.frame.size;
+}
+
+- (void)setJt_size:(CGSize)jt_size {
+    CGRect frame = self.frame;
+    frame.size = jt_size;
+    self.frame = frame;
 }
 @end
