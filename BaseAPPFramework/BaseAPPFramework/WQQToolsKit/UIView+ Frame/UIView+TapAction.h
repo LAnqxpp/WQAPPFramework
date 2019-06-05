@@ -11,7 +11,14 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface UIView (TapAction)
+
 - (void)addTapBlock:(void(^)(id obj))tapAction;
+
+/**
+ Attaches the given block for a long press action to the receiver.
+ @param block The block to execute.
+ */
+- (void)setLongPressActionWithBlock:(void (^)(void))block;
 @end
 
 NS_ASSUME_NONNULL_END

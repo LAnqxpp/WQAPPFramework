@@ -21,6 +21,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic) CGFloat jt_centerY;     ///< Shortcut for center.y
 @property (nonatomic) CGPoint jt_origin;      ///< Shortcut for frame.origin.
 @property (nonatomic) CGSize  jt_size;        ///< Shortcut for frame.size.
+
+@property (nonatomic, readonly) UIEdgeInsets jt_safeAreaInsets;
+
+@property (nullable, nonatomic, readonly) UIViewController *jt_viewController;
 @end
 
 NS_ASSUME_NONNULL_END

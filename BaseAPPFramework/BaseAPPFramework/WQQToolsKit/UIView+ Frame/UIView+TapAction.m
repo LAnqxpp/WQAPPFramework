@@ -9,6 +9,9 @@
 #import "UIView+TapAction.h"
 #import <objc/runtime.h>
 static const void* tagValue = &tagValue;
+
+static char kDTActionHandlerLongPressBlockKey;
+static char kDTActionHandlerLongPressGestureKey;
 @interface UIView ()
 @property (nonatomic, copy) void(^tapAction)(id);
 @end
@@ -33,4 +36,33 @@ static const void* tagValue = &tagValue;
 -(void (^)(id))tapAction {
     return objc_getAssociatedObject(self, tagValue);
 }
+
+- (void)setLongPressActionWithBlock:(void (^)(void))block
+{
+    UILongPressGestureRecognizer *gesture = objc_getAssociatedObject(self, &kDTActionHandlerLongPressGestureKey);
+    
+    if (!gesture)
+    {
+        gesture = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(__handleActionForLongPressGesture:)];
+        [self addGestureRecognizer:gesture];
+        objc_setAssociatedObject(self, &kDTActionHandlerLongPressGestureKey, gesture, OBJC_ASSOCIATION_RETAIN);
+    }
+    
+    objc_setAssociatedObject(self, &kDTActionHandlerLongPressBlockKey, block, OBJC_ASSOCIATION_COPY);
+}
+
+- (void)__handleActionForLongPressGesture:(UITapGestureRecognizer *)gesture
+{
+    if (gesture.state == UIGestureRecognizerStateBegan)
+    {
+        void(^action)(void) = objc_getAssociatedObject(self, &kDTActionHandlerLongPressBlockKey);
+        
+        if (action)
+        {
+            action();
+        }
+    }
+}
+
+
 @end

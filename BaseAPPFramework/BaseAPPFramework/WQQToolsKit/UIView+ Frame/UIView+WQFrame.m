@@ -114,4 +114,22 @@
     frame.size = jt_size;
     self.frame = frame;
 }
+
+- (UIEdgeInsets)jt_safeAreaInsets {
+    UIEdgeInsets inset = UIEdgeInsetsZero;
+    if (@available(iOS 11, *)) {
+        inset = self.safeAreaInsets;
+    }
+    return inset;
+}
+
+- (UIViewController *)jt_viewController {
+    for (UIView *view = self; view; view = view.superview) {
+        UIResponder *nextResponder = [view nextResponder];
+        if ([nextResponder isKindOfClass:[UIViewController class]]) {
+            return (UIViewController *)nextResponder;
+        }
+    }
+    return nil;
+}
 @end
