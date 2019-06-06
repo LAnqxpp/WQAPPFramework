@@ -45,6 +45,7 @@
 		04B871AE228164E60041A110 /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B871A8228164E60041A110 /* WebViewJavascriptBridgeBase.m */; };
 		04B871AF228164E60041A110 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B871A9228164E60041A110 /* WebViewJavascriptBridge.m */; };
 		04B871B0228164E60041A110 /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B871AC228164E60041A110 /* WKWebViewJavascriptBridge.m */; };
+		65ADA89F22A8B0CD00E82336 /* QuickCreate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65ADA89D22A8B0CD00E82336 /* QuickCreate.m */; };
 		65E1086022A81B0E006C1CFD /* UIView+WQFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E1085F22A81B0E006C1CFD /* UIView+WQFrame.m */; };
 		65E1086322A81B1A006C1CFD /* UIView+TapAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E1086222A81B1A006C1CFD /* UIView+TapAction.m */; };
 		65F6728E2268D49F005DFBCB /* MGLable.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F6728D2268D49F005DFBCB /* MGLable.m */; };
@@ -127,6 +128,8 @@
 		04B871AA228164E60041A110 /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge.h; sourceTree = "<group>"; };
 		04B871AB228164E60041A110 /* WebViewJavascriptBridge_JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge_JS.h; sourceTree = "<group>"; };
 		04B871AC228164E60041A110 /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		65ADA89D22A8B0CD00E82336 /* QuickCreate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickCreate.m; sourceTree = "<group>"; };
+		65ADA89E22A8B0CD00E82336 /* QuickCreate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickCreate.h; sourceTree = "<group>"; };
 		65E1085E22A81B0E006C1CFD /* UIView+WQFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WQFrame.h"; sourceTree = "<group>"; };
 		65E1085F22A81B0E006C1CFD /* UIView+WQFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WQFrame.m"; sourceTree = "<group>"; };
 		65E1086122A81B1A006C1CFD /* UIView+TapAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TapAction.h"; sourceTree = "<group>"; };
@@ -336,6 +339,7 @@
 		048CE18921E712DC00FF03E7 /* WQQToolsKit */ = {
 			isa = PBXGroup;
 			children = (
+				65ADA89C22A8B0B200E82336 /* 快速构建UI */,
 				04B871A4228164AD0041A110 /* WebViewJavascriptBridge */,
 				04B871A022813A090041A110 /* 头像点击查看 */,
 				04B68A5E226EE4E10032BF6C /* 网络加载失败图显示 */,
@@ -415,6 +419,15 @@
 				04B871AC228164E60041A110 /* WKWebViewJavascriptBridge.m */,
 			);
 			path = WebViewJavascriptBridge;
+			sourceTree = "<group>";
+		};
+		65ADA89C22A8B0B200E82336 /* 快速构建UI */ = {
+			isa = PBXGroup;
+			children = (
+				65ADA89E22A8B0CD00E82336 /* QuickCreate.h */,
+				65ADA89D22A8B0CD00E82336 /* QuickCreate.m */,
+			);
+			path = "快速构建UI";
 			sourceTree = "<group>";
 		};
 		65F6728A2268D3A2005DFBCB /* 国际化语言 */ = {
@@ -524,6 +537,7 @@
 				0476945221EC3049002A91B4 /* UIColor+Gradient.m in Sources */,
 				0483DE78226834E60016ECA3 /* QPDialCodeStringUtil.m in Sources */,
 				048CE15C21E6DC7D00FF03E7 /* ViewController.m in Sources */,
+				65ADA89F22A8B0CD00E82336 /* QuickCreate.m in Sources */,
 				04B871AF228164E60041A110 /* WebViewJavascriptBridge.m in Sources */,
 				65F6728E2268D49F005DFBCB /* MGLable.m in Sources */,
 				042B77A821F1768600B366F9 /* NSAttributedString+WQDifferentString.m in Sources */,
