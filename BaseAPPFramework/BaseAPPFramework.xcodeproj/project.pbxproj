@@ -45,6 +45,7 @@
 		04B871AF228164E60041A110 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B871A9228164E60041A110 /* WebViewJavascriptBridge.m */; };
 		04B871B0228164E60041A110 /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B871AC228164E60041A110 /* WKWebViewJavascriptBridge.m */; };
 		65ADA8A222A8B3EA00E82336 /* UIView+WQFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 65ADA8A122A8B3EA00E82336 /* UIView+WQFrame.m */; };
+		65ADA8A522A8B44000E82336 /* SKPreviewer.m in Sources */ = {isa = PBXBuildFile; fileRef = 65ADA8A322A8B44000E82336 /* SKPreviewer.m */; };
 		65E1086322A81B1A006C1CFD /* UIView+TapAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E1086222A81B1A006C1CFD /* UIView+TapAction.m */; };
 		65F6728E2268D49F005DFBCB /* MGLable.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F6728D2268D49F005DFBCB /* MGLable.m */; };
 /* End PBXBuildFile section */
@@ -126,6 +127,8 @@
 		04B871AC228164E60041A110 /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
 		65ADA8A022A8B3EA00E82336 /* UIView+WQFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WQFrame.h"; sourceTree = "<group>"; };
 		65ADA8A122A8B3EA00E82336 /* UIView+WQFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WQFrame.m"; sourceTree = "<group>"; };
+		65ADA8A322A8B44000E82336 /* SKPreviewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKPreviewer.m; sourceTree = "<group>"; };
+		65ADA8A422A8B44000E82336 /* SKPreviewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKPreviewer.h; sourceTree = "<group>"; };
 		65E1086122A81B1A006C1CFD /* UIView+TapAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TapAction.h"; sourceTree = "<group>"; };
 		65E1086222A81B1A006C1CFD /* UIView+TapAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TapAction.m"; sourceTree = "<group>"; };
 		65F6728C2268D49F005DFBCB /* MGLable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLable.h; sourceTree = "<group>"; };
@@ -394,6 +397,8 @@
 		04B871A022813A090041A110 /* 头像点击查看 */ = {
 			isa = PBXGroup;
 			children = (
+				65ADA8A422A8B44000E82336 /* SKPreviewer.h */,
+				65ADA8A322A8B44000E82336 /* SKPreviewer.m */,
 			);
 			path = "头像点击查看";
 			sourceTree = "<group>";
@@ -536,6 +541,7 @@
 				048CE16721E6DC7F00FF03E7 /* main.m in Sources */,
 				047AE70C2243442C007CC5BB /* UIBarButtonItem+Badge.m in Sources */,
 				04487690223F731B00F27994 /* UIImage+LMSS.m in Sources */,
+				65ADA8A522A8B44000E82336 /* SKPreviewer.m in Sources */,
 				048CE15921E6DC7D00FF03E7 /* AppDelegate.m in Sources */,
 				047AE708224342E2007CC5BB /* HFSafeKVOManager.m in Sources */,
 				65E1086322A81B1A006C1CFD /* UIView+TapAction.m in Sources */,
