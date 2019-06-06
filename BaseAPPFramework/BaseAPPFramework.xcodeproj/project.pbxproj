@@ -44,6 +44,7 @@
 		04B871AE228164E60041A110 /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B871A8228164E60041A110 /* WebViewJavascriptBridgeBase.m */; };
 		04B871AF228164E60041A110 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B871A9228164E60041A110 /* WebViewJavascriptBridge.m */; };
 		04B871B0228164E60041A110 /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B871AC228164E60041A110 /* WKWebViewJavascriptBridge.m */; };
+		65ADA8A222A8B3EA00E82336 /* UIView+WQFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 65ADA8A122A8B3EA00E82336 /* UIView+WQFrame.m */; };
 		65E1086322A81B1A006C1CFD /* UIView+TapAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E1086222A81B1A006C1CFD /* UIView+TapAction.m */; };
 		65F6728E2268D49F005DFBCB /* MGLable.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F6728D2268D49F005DFBCB /* MGLable.m */; };
 /* End PBXBuildFile section */
@@ -123,6 +124,8 @@
 		04B871AA228164E60041A110 /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge.h; sourceTree = "<group>"; };
 		04B871AB228164E60041A110 /* WebViewJavascriptBridge_JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge_JS.h; sourceTree = "<group>"; };
 		04B871AC228164E60041A110 /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		65ADA8A022A8B3EA00E82336 /* UIView+WQFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WQFrame.h"; sourceTree = "<group>"; };
+		65ADA8A122A8B3EA00E82336 /* UIView+WQFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WQFrame.m"; sourceTree = "<group>"; };
 		65E1086122A81B1A006C1CFD /* UIView+TapAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TapAction.h"; sourceTree = "<group>"; };
 		65E1086222A81B1A006C1CFD /* UIView+TapAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TapAction.m"; sourceTree = "<group>"; };
 		65F6728C2268D49F005DFBCB /* MGLable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLable.h; sourceTree = "<group>"; };
@@ -175,6 +178,8 @@
 		044AAB7721E82A7F009F0EA2 /* UIView+ Frame */ = {
 			isa = PBXGroup;
 			children = (
+				65ADA8A022A8B3EA00E82336 /* UIView+WQFrame.h */,
+				65ADA8A122A8B3EA00E82336 /* UIView+WQFrame.m */,
 				65E1086122A81B1A006C1CFD /* UIView+TapAction.h */,
 				65E1086222A81B1A006C1CFD /* UIView+TapAction.m */,
 			);
@@ -537,6 +542,7 @@
 				048CE17921E6F10900FF03E7 /* WQHomeViewController.m in Sources */,
 				04B871AE228164E60041A110 /* WebViewJavascriptBridgeBase.m in Sources */,
 				0464054922154D2F0094DE93 /* LTTestTableViewCell.m in Sources */,
+				65ADA8A222A8B3EA00E82336 /* UIView+WQFrame.m in Sources */,
 				04B871AD228164E60041A110 /* WebViewJavascriptBridge_JS.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
